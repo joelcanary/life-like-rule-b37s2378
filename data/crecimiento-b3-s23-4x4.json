@@ -1,0 +1,8294 @@
+{
+ "regla": "B3/S23",
+ "caja": [
+  4,
+  4
+ ],
+ "gens": 100,
+ "lejos": 1500,
+ "hitos": [
+  100,
+  200,
+  500,
+  1000,
+  1500
+ ],
+ "sin_cerrar": 9284,
+ "evaluadas": 465,
+ "muestra": 20,
+ "por_clase": {
+  "cierra": 191,
+  "acotada sin cerrar": 268,
+  "crece": 6
+ },
+ "semillas": [
+  {
+   "clase": "cierra",
+   "gen": 103,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 20
+   },
+   "idx": 4159,
+   "forma": [
+    "XXXX",
+    "XX..",
+    "....",
+    "X..."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 269,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 30,
+   "pob": {
+    "100": 41,
+    "200": 50
+   },
+   "idx": 4567,
+   "forma": [
+    "XXX.",
+    "X.XX",
+    "X...",
+    "X..."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 108,
+    "200": 119,
+    "500": 176,
+    "1000": 163,
+    "1500": 116
+   },
+   "idx": 4772,
+   "forma": [
+    "..X.",
+    ".X.X",
+    ".X..",
+    "X..."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 9,
+   "pob": {
+    "100": 25,
+    "200": 9,
+    "500": 9,
+    "1000": 9,
+    "1500": 9
+   },
+   "idx": 4984,
+   "forma": [
+    "...X",
+    "XXX.",
+    "XX..",
+    "X..."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 74,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 5083,
+   "forma": [
+    "XX.X",
+    "X.XX",
+    "XX..",
+    "X..."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 121,
+    "200": 120,
+    "500": 174,
+    "1000": 156,
+    "1500": 116
+   },
+   "idx": 5334,
+   "forma": [
+    ".XX.",
+    "X.XX",
+    "..X.",
+    "X..."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 174,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 107
+   },
+   "idx": 5573,
+   "forma": [
+    "X.X.",
+    "..XX",
+    "X.X.",
+    "X..."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 124,
+    "200": 130,
+    "500": 162,
+    "1000": 160,
+    "1500": 116
+   },
+   "idx": 5721,
+   "forma": [
+    "X..X",
+    "X.X.",
+    ".XX.",
+    "X..."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 206,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 30,
+   "pob": {
+    "100": 78,
+    "200": 42
+   },
+   "idx": 5831,
+   "forma": [
+    "XXX.",
+    "..XX",
+    ".XX.",
+    "X..."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 175,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 103
+   },
+   "idx": 6036,
+   "forma": [
+    "..X.",
+    "X..X",
+    "XXX.",
+    "X..."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 175,
+   "pob": {
+    "100": 80,
+    "200": 152,
+    "500": 172,
+    "1000": 202,
+    "1500": 175
+   },
+   "idx": 6116,
+   "forma": [
+    "..X.",
+    ".XXX",
+    "XXX.",
+    "X..."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 12,
+   "pob": {
+    "100": 12,
+    "200": 12,
+    "500": 12,
+    "1000": 12,
+    "1500": 12
+   },
+   "idx": 6333,
+   "forma": [
+    "X.XX",
+    "XX.X",
+    "...X",
+    "X..."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 121,
+   "pob": {
+    "100": 102,
+    "200": 137,
+    "500": 167,
+    "1000": 182,
+    "1500": 121
+   },
+   "idx": 6494,
+   "forma": [
+    ".XXX",
+    "X.X.",
+    "X..X",
+    "X..."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 132,
+   "pob": {
+    "100": 50,
+    "200": 65,
+    "500": 189,
+    "1000": 129,
+    "1500": 129
+   },
+   "idx": 6590,
+   "forma": [
+    ".XXX",
+    "XX.X",
+    "X..X",
+    "X..."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 291,
+   "pob": {
+    "100": 226,
+    "200": 250,
+    "500": 431,
+    "1000": 356,
+    "1500": 291
+   },
+   "idx": 6815,
+   "forma": [
+    "XXXX",
+    "X..X",
+    ".X.X",
+    "X..."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 125,
+    "200": 119,
+    "500": 172,
+    "1000": 160,
+    "1500": 116
+   },
+   "idx": 6931,
+   "forma": [
+    "XX..",
+    "X...",
+    "XX.X",
+    "X..."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 704,
+   "pob": {
+    "100": 192,
+    "200": 309,
+    "500": 450,
+    "1000": 926,
+    "1500": 709
+   },
+   "idx": 7070,
+   "forma": [
+    ".XXX",
+    "X..X",
+    "XX.X",
+    "X..."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 178,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 99
+   },
+   "idx": 7156,
+   "forma": [
+    "..X.",
+    "XXXX",
+    "XX.X",
+    "X..."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 39,
+   "pob": {
+    "100": 24,
+    "200": 90,
+    "500": 39,
+    "1000": 39,
+    "1500": 39
+   },
+   "idx": 7345,
+   "forma": [
+    "X...",
+    "XX.X",
+    "..XX",
+    "X..."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 124,
+    "200": 130,
+    "500": 162,
+    "1000": 160,
+    "1500": 116
+   },
+   "idx": 7512,
+   "forma": [
+    "...X",
+    "X.X.",
+    "X.XX",
+    "X..."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 51,
+   "pob": {
+    "100": 93,
+    "200": 58,
+    "500": 51,
+    "1000": 51,
+    "1500": 51
+   },
+   "idx": 7612,
+   "forma": [
+    "..XX",
+    "XX.X",
+    "X.XX",
+    "X..."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 176,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 38,
+   "pob": {
+    "100": 47
+   },
+   "idx": 7738,
+   "forma": [
+    ".X.X",
+    "XX..",
+    ".XXX",
+    "X..."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 105,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 20
+   },
+   "idx": 7881,
+   "forma": [
+    "X..X",
+    "..XX",
+    ".XXX",
+    "X..."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 176,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 131
+   },
+   "idx": 7995,
+   "forma": [
+    "XX.X",
+    "XX..",
+    "XXXX",
+    "X..."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 100,
+    "200": 131,
+    "500": 151,
+    "1000": 182,
+    "1500": 116
+   },
+   "idx": 8153,
+   "forma": [
+    "X..X",
+    "X.XX",
+    "XXXX",
+    "X..."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 125,
+    "200": 119,
+    "500": 172,
+    "1000": 160,
+    "1500": 116
+   },
+   "idx": 8407,
+   "forma": [
+    "XXX.",
+    "X.XX",
+    "....",
+    ".X.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 71,
+   "pob": {
+    "100": 141,
+    "200": 85,
+    "500": 71,
+    "1000": 71,
+    "1500": 71
+   },
+   "idx": 8623,
+   "forma": [
+    "XXXX",
+    ".X.X",
+    "X...",
+    ".X.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 108,
+    "200": 119,
+    "500": 176,
+    "1000": 163,
+    "1500": 116
+   },
+   "idx": 8894,
+   "forma": [
+    ".XXX",
+    "XX.X",
+    ".X..",
+    ".X.."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 386,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 48,
+   "pob": {
+    "100": 53,
+    "200": 73
+   },
+   "idx": 9148,
+   "forma": [
+    "..XX",
+    "XX.X",
+    "XX..",
+    ".X.."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 176,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 131
+   },
+   "idx": 9337,
+   "forma": [
+    "X..X",
+    "XXX.",
+    "..X.",
+    ".X.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 52,
+   "pob": {
+    "100": 99,
+    "200": 168,
+    "500": 52,
+    "1000": 52,
+    "1500": 52
+   },
+   "idx": 9567,
+   "forma": [
+    "XXXX",
+    "X.X.",
+    "X.X.",
+    ".X.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 125,
+    "200": 119,
+    "500": 172,
+    "1000": 160,
+    "1500": 116
+   },
+   "idx": 9773,
+   "forma": [
+    "X.XX",
+    ".X..",
+    ".XX.",
+    ".X.."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 174,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 107
+   },
+   "idx": 10008,
+   "forma": [
+    "...X",
+    "X...",
+    "XXX.",
+    ".X.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 45,
+   "pob": {
+    "100": 25,
+    "200": 83,
+    "500": 45,
+    "1000": 45,
+    "1500": 45
+   },
+   "idx": 10124,
+   "forma": [
+    "..XX",
+    "...X",
+    "XXX.",
+    ".X.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 108,
+    "200": 119,
+    "500": 176,
+    "1000": 163,
+    "1500": 116
+   },
+   "idx": 10207,
+   "forma": [
+    "XXXX",
+    "X.XX",
+    "XXX.",
+    ".X.."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 175,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 103
+   },
+   "idx": 10426,
+   "forma": [
+    ".X.X",
+    "XX.X",
+    "...X",
+    ".X.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 121,
+    "200": 137,
+    "500": 165,
+    "1000": 164,
+    "1500": 116
+   },
+   "idx": 10593,
+   "forma": [
+    "X...",
+    ".XX.",
+    "X..X",
+    ".X.."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 176,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 131
+   },
+   "idx": 10853,
+   "forma": [
+    "X.X.",
+    ".XX.",
+    ".X.X",
+    ".X.."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 309,
+   "periodo": 1,
+   "desplaza": false,
+   "pob_final": 50,
+   "pob": {
+    "100": 61,
+    "200": 76
+   },
+   "idx": 10985,
+   "forma": [
+    "X..X",
+    ".XXX",
+    ".X.X",
+    ".X.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 291,
+   "pob": {
+    "100": 247,
+    "200": 249,
+    "500": 402,
+    "1000": 345,
+    "1500": 291
+   },
+   "idx": 11095,
+   "forma": [
+    "XXX.",
+    "X.X.",
+    "XX.X",
+    ".X.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 78,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 11210,
+   "forma": [
+    ".X.X",
+    "..XX",
+    "XX.X",
+    ".X.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 121,
+    "200": 137,
+    "500": 165,
+    "1000": 164,
+    "1500": 116
+   },
+   "idx": 11333,
+   "forma": [
+    "X.X.",
+    "..X.",
+    "..XX",
+    ".X.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 124,
+    "200": 130,
+    "500": 162,
+    "1000": 160,
+    "1500": 116
+   },
+   "idx": 11433,
+   "forma": [
+    "X..X",
+    ".X.X",
+    "..XX",
+    ".X.."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 153,
+   "periodo": 1,
+   "desplaza": false,
+   "pob_final": 12,
+   "pob": {
+    "100": 32
+   },
+   "idx": 11569,
+   "forma": [
+    "X...",
+    "XX..",
+    "X.XX",
+    ".X.."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 389,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 48,
+   "pob": {
+    "100": 58,
+    "200": 83
+   },
+   "idx": 11638,
+   "forma": [
+    ".XX.",
+    "XXX.",
+    "X.XX",
+    ".X.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 123,
+    "200": 117,
+    "500": 167,
+    "1000": 170,
+    "1500": 116
+   },
+   "idx": 11734,
+   "forma": [
+    ".XX.",
+    "X.XX",
+    "X.XX",
+    ".X.."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 176,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 131
+   },
+   "idx": 11863,
+   "forma": [
+    "XXX.",
+    "X.X.",
+    ".XXX",
+    ".X.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 145,
+   "pob": {
+    "100": 54,
+    "200": 122,
+    "500": 208,
+    "1000": 145,
+    "1500": 145
+   },
+   "idx": 12062,
+   "forma": [
+    ".XXX",
+    "X...",
+    "XXXX",
+    ".X.."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 106,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 21
+   },
+   "idx": 12179,
+   "forma": [
+    "XX..",
+    "X..X",
+    "XXXX",
+    ".X.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 60,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 12249,
+   "forma": [
+    "X..X",
+    "X.XX",
+    "XXXX",
+    ".X.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 9,
+   "pob": {
+    "100": 27,
+    "200": 9,
+    "500": 9,
+    "1000": 9,
+    "1500": 9
+   },
+   "idx": 12588,
+   "forma": [
+    "..XX",
+    ".X..",
+    "X...",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 15,
+   "pob": {
+    "100": 15,
+    "200": 15,
+    "500": 15,
+    "1000": 15,
+    "1500": 15
+   },
+   "idx": 12695,
+   "forma": [
+    "XXX.",
+    "X..X",
+    "X...",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 153,
+   "periodo": 1,
+   "desplaza": false,
+   "pob_final": 12,
+   "pob": {
+    "100": 32
+   },
+   "idx": 12754,
+   "forma": [
+    ".X..",
+    "X.XX",
+    "X...",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 79,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 12947,
+   "forma": [
+    "XX..",
+    "X..X",
+    ".X..",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 9,
+   "pob": {
+    "100": 25,
+    "200": 9,
+    "500": 9,
+    "1000": 9,
+    "1500": 9
+   },
+   "idx": 13197,
+   "forma": [
+    "X.XX",
+    "...X",
+    "XX..",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 121,
+    "200": 137,
+    "500": 165,
+    "1000": 164,
+    "1500": 116
+   },
+   "idx": 13386,
+   "forma": [
+    ".X.X",
+    "..X.",
+    "..X.",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 123,
+    "200": 117,
+    "500": 167,
+    "1000": 170,
+    "1500": 116
+   },
+   "idx": 13627,
+   "forma": [
+    "XX.X",
+    "XX..",
+    "X.X.",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 77,
+   "pob": {
+    "100": 51,
+    "200": 135,
+    "500": 94,
+    "1000": 77,
+    "1500": 77
+   },
+   "idx": 13725,
+   "forma": [
+    "X.XX",
+    "X..X",
+    "X.X.",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 17,
+   "pob": {
+    "100": 17,
+    "200": 17,
+    "500": 17,
+    "1000": 17,
+    "1500": 17
+   },
+   "idx": 13790,
+   "forma": [
+    ".XXX",
+    "X.XX",
+    "X.X.",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 60,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 14013,
+   "forma": [
+    "X.XX",
+    "XX.X",
+    ".XX.",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 104,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 21
+   },
+   "idx": 14095,
+   "forma": [
+    "XXXX",
+    "....",
+    "XXX.",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 386,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 48,
+   "pob": {
+    "100": 53,
+    "200": 73
+   },
+   "idx": 14276,
+   "forma": [
+    "..X.",
+    "..XX",
+    "XXX.",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 175,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 103
+   },
+   "idx": 14507,
+   "forma": [
+    "XX.X",
+    ".X.X",
+    "...X",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 102,
+   "periodo": 1,
+   "desplaza": false,
+   "pob_final": 17,
+   "pob": {
+    "100": 21
+   },
+   "idx": 14631,
+   "forma": [
+    "XXX.",
+    ".X..",
+    "X..X",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 33,
+   "pob": {
+    "100": 77,
+    "200": 80,
+    "500": 33,
+    "1000": 33,
+    "1500": 33
+   },
+   "idx": 14727,
+   "forma": [
+    "XXX.",
+    "...X",
+    "X..X",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 39,
+   "pob": {
+    "100": 73,
+    "200": 39,
+    "500": 39,
+    "1000": 39,
+    "1500": 39
+   },
+   "idx": 14799,
+   "forma": [
+    "XXXX",
+    "..XX",
+    "X..X",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 19,
+   "pob": {
+    "100": 49,
+    "200": 19,
+    "500": 19,
+    "1000": 19,
+    "1500": 19
+   },
+   "idx": 14867,
+   "forma": [
+    "XX..",
+    "X...",
+    ".X.X",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 176,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 131
+   },
+   "idx": 15012,
+   "forma": [
+    "..X.",
+    ".X.X",
+    ".X.X",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 431,
+   "pob": {
+    "100": 80,
+    "200": 212,
+    "500": 157,
+    "1000": 365,
+    "1500": 456
+   },
+   "idx": 15082,
+   "forma": [
+    ".X.X",
+    ".XXX",
+    ".X.X",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 123,
+    "200": 117,
+    "500": 167,
+    "1000": 170,
+    "1500": 116
+   },
+   "idx": 15153,
+   "forma": [
+    "X...",
+    "XX..",
+    "XX.X",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 59,
+   "pob": {
+    "100": 166,
+    "200": 86,
+    "500": 59,
+    "1000": 59,
+    "1500": 59
+   },
+   "idx": 15231,
+   "forma": [
+    "XXXX",
+    "XXX.",
+    "XX.X",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 15,
+   "pob": {
+    "100": 15,
+    "200": 15,
+    "500": 15,
+    "1000": 15,
+    "1500": 15
+   },
+   "idx": 15320,
+   "forma": [
+    "...X",
+    "X.XX",
+    "XX.X",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 176,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 38,
+   "pob": {
+    "100": 47
+   },
+   "idx": 15419,
+   "forma": [
+    "XX.X",
+    "XX..",
+    "..XX",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 81,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 15510,
+   "forma": [
+    ".XX.",
+    "X..X",
+    "..XX",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 105,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 20
+   },
+   "idx": 15609,
+   "forma": [
+    "X..X",
+    "XXXX",
+    "..XX",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 172,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 26,
+   "pob": {
+    "100": 34
+   },
+   "idx": 15691,
+   "forma": [
+    "XX.X",
+    "..X.",
+    "X.XX",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 72,
+   "pob": {
+    "100": 152,
+    "200": 136,
+    "500": 153,
+    "1000": 72,
+    "1500": 72
+   },
+   "idx": 15759,
+   "forma": [
+    "XXXX",
+    "...X",
+    "X.XX",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 103,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 20
+   },
+   "idx": 15809,
+   "forma": [
+    "X...",
+    "..XX",
+    "X.XX",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 42,
+   "pob": {
+    "100": 63,
+    "200": 62,
+    "500": 42,
+    "1000": 42,
+    "1500": 42
+   },
+   "idx": 15865,
+   "forma": [
+    "X..X",
+    "XXXX",
+    "X.XX",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 105,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 20
+   },
+   "idx": 16055,
+   "forma": [
+    "XXX.",
+    "XX.X",
+    ".XXX",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 235,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 89,
+   "pob": {
+    "100": 105,
+    "200": 148
+   },
+   "idx": 16286,
+   "forma": [
+    ".XXX",
+    "X..X",
+    "XXXX",
+    "XX.."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 176,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 131
+   },
+   "idx": 16699,
+   "forma": [
+    "XX.X",
+    "XX..",
+    "X...",
+    "..X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 104,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 21
+   },
+   "idx": 16879,
+   "forma": [
+    "XXXX",
+    ".XXX",
+    "X...",
+    "..X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 181,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 99
+   },
+   "idx": 17214,
+   "forma": [
+    ".XXX",
+    "XX..",
+    "XX..",
+    "..X."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 82,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 17335,
+   "forma": [
+    "XXX.",
+    "XX.X",
+    "XX..",
+    "..X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 103,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 20
+   },
+   "idx": 17590,
+   "forma": [
+    ".XX.",
+    "XX.X",
+    "..X.",
+    "..X."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 39,
+   "pob": {
+    "100": 26,
+    "200": 112,
+    "500": 39,
+    "1000": 39,
+    "1500": 39
+   },
+   "idx": 17804,
+   "forma": [
+    "..XX",
+    "...X",
+    "X.X.",
+    "..X."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 125,
+    "200": 119,
+    "500": 172,
+    "1000": 160,
+    "1500": 116
+   },
+   "idx": 17995,
+   "forma": [
+    "XX.X",
+    "..X.",
+    ".XX.",
+    "..X."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 121,
+    "200": 137,
+    "500": 165,
+    "1000": 164,
+    "1500": 116
+   },
+   "idx": 18308,
+   "forma": [
+    "..X.",
+    "...X",
+    "XXX.",
+    "..X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 176,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 131
+   },
+   "idx": 18373,
+   "forma": [
+    "X.X.",
+    "..XX",
+    "XXX.",
+    "..X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 102,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 18
+   },
+   "idx": 18583,
+   "forma": [
+    "XXX.",
+    "X..X",
+    "...X",
+    "..X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 175,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 103
+   },
+   "idx": 18804,
+   "forma": [
+    "..X.",
+    "XXX.",
+    "X..X",
+    "..X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 175,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 103
+   },
+   "idx": 18983,
+   "forma": [
+    "XXX.",
+    ".X..",
+    ".X.X",
+    "..X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 105,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 20
+   },
+   "idx": 19141,
+   "forma": [
+    "X.X.",
+    "..XX",
+    ".X.X",
+    "..X."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 132,
+    "200": 115,
+    "500": 163,
+    "1000": 158,
+    "1500": 116
+   },
+   "idx": 19289,
+   "forma": [
+    "X..X",
+    "X.X.",
+    "XX.X",
+    "..X."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 132,
+    "200": 115,
+    "500": 163,
+    "1000": 158,
+    "1500": 116
+   },
+   "idx": 19384,
+   "forma": [
+    "...X",
+    "XX.X",
+    "XX.X",
+    "..X."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 16,
+    "200": 104,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 19447,
+   "forma": [
+    "XXX.",
+    "XXXX",
+    "XX.X",
+    "..X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 607,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 67,
+   "pob": {
+    "100": 48,
+    "200": 45,
+    "500": 61
+   },
+   "idx": 19623,
+   "forma": [
+    "XXX.",
+    ".X.X",
+    "..XX",
+    "..X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 201,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 18,
+   "pob": {
+    "100": 51,
+    "200": 20
+   },
+   "idx": 19762,
+   "forma": [
+    ".X..",
+    "XX..",
+    "X.XX",
+    "..X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 197,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 85
+   },
+   "idx": 19833,
+   "forma": [
+    "X..X",
+    "XXX.",
+    "X.XX",
+    "..X."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 97,
+   "pob": {
+    "100": 66,
+    "200": 67,
+    "500": 97,
+    "1000": 97,
+    "1500": 97
+   },
+   "idx": 19935,
+   "forma": [
+    "XXXX",
+    "X.XX",
+    "X.XX",
+    "..X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 116,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 20,
+   "pob": {
+    "100": 38
+   },
+   "idx": 20025,
+   "forma": [
+    "X..X",
+    "XX..",
+    ".XXX",
+    "..X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 152,
+   "periodo": 1,
+   "desplaza": false,
+   "pob_final": 12,
+   "pob": {
+    "100": 31
+   },
+   "idx": 20119,
+   "forma": [
+    "XXX.",
+    "X..X",
+    ".XXX",
+    "..X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 176,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 131
+   },
+   "idx": 20266,
+   "forma": [
+    ".X.X",
+    ".X..",
+    "XXXX",
+    "..X."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 108,
+    "200": 119,
+    "500": 176,
+    "1000": 163,
+    "1500": 116
+   },
+   "idx": 20364,
+   "forma": [
+    "..XX",
+    "...X",
+    "XXXX",
+    "..X."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 199,
+   "pob": {
+    "100": 86,
+    "200": 127,
+    "500": 363,
+    "1000": 199,
+    "1500": 199
+   },
+   "idx": 20413,
+   "forma": [
+    "X.XX",
+    "XX.X",
+    "XXXX",
+    "..X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 431,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 77,
+   "pob": {
+    "100": 34,
+    "200": 81
+   },
+   "idx": 20828,
+   "forma": [
+    "..XX",
+    "X.X.",
+    "X...",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 33,
+   "pob": {
+    "100": 73,
+    "200": 65,
+    "500": 33,
+    "1000": 33,
+    "1500": 33
+   },
+   "idx": 20974,
+   "forma": [
+    ".XXX",
+    ".XXX",
+    "X...",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 174,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 107
+   },
+   "idx": 21189,
+   "forma": [
+    "X.X.",
+    "..XX",
+    ".X..",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 104,
+   "pob": {
+    "100": 56,
+    "200": 136,
+    "500": 124,
+    "1000": 104,
+    "1500": 104
+   },
+   "idx": 21389,
+   "forma": [
+    "X.XX",
+    "...X",
+    "XX..",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 174,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 107
+   },
+   "idx": 21562,
+   "forma": [
+    ".X.X",
+    "XX..",
+    "..X.",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 175,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 103
+   },
+   "idx": 21699,
+   "forma": [
+    "XX..",
+    "..XX",
+    "..X.",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 126,
+   "pob": {
+    "100": 148,
+    "200": 206,
+    "500": 126,
+    "1000": 126,
+    "1500": 126
+   },
+   "idx": 21948,
+   "forma": [
+    "..XX",
+    "XX.X",
+    "X.X.",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 71,
+   "pob": {
+    "100": 119,
+    "200": 83,
+    "500": 71,
+    "1000": 71,
+    "1500": 71
+   },
+   "idx": 22158,
+   "forma": [
+    ".XXX",
+    "...X",
+    ".XX.",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 199,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 28,
+   "pob": {
+    "100": 39,
+    "200": 28
+   },
+   "idx": 22303,
+   "forma": [
+    "XXXX",
+    "X...",
+    "XXX.",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 197,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 85
+   },
+   "idx": 22484,
+   "forma": [
+    "..X.",
+    "X.XX",
+    "XXX.",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 175,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 103
+   },
+   "idx": 22669,
+   "forma": [
+    "X.XX",
+    "...X",
+    "...X",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 9,
+   "pob": {
+    "100": 27,
+    "200": 9,
+    "500": 9,
+    "1000": 9,
+    "1500": 9
+   },
+   "idx": 22735,
+   "forma": [
+    "XXXX",
+    "..XX",
+    "...X",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 35,
+   "pob": {
+    "100": 64,
+    "200": 35,
+    "500": 35,
+    "1000": 35,
+    "1500": 35
+   },
+   "idx": 22899,
+   "forma": [
+    "XX..",
+    "XXX.",
+    "X..X",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 55,
+   "pob": {
+    "100": 57,
+    "200": 96,
+    "500": 55,
+    "1000": 55,
+    "1500": 55
+   },
+   "idx": 22967,
+   "forma": [
+    "XXX.",
+    "XX.X",
+    "X..X",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 102,
+   "periodo": 1,
+   "desplaza": false,
+   "pob_final": 17,
+   "pob": {
+    "100": 21
+   },
+   "idx": 23118,
+   "forma": [
+    ".XXX",
+    "..X.",
+    ".X.X",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 153,
+   "periodo": 1,
+   "desplaza": false,
+   "pob_final": 12,
+   "pob": {
+    "100": 32
+   },
+   "idx": 23241,
+   "forma": [
+    "X..X",
+    "..XX",
+    ".X.X",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 176,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 131
+   },
+   "idx": 23314,
+   "forma": [
+    ".X..",
+    "X...",
+    "XX.X",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 414,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 47,
+   "pob": {
+    "100": 66,
+    "200": 71
+   },
+   "idx": 23437,
+   "forma": [
+    "X.XX",
+    "...X",
+    "XX.X",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 108,
+    "200": 119,
+    "500": 176,
+    "1000": 163,
+    "1500": 116
+   },
+   "idx": 23522,
+   "forma": [
+    ".X..",
+    ".XXX",
+    "XX.X",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 39,
+   "pob": {
+    "100": 24,
+    "200": 90,
+    "500": 39,
+    "1000": 39,
+    "1500": 39
+   },
+   "idx": 23597,
+   "forma": [
+    "X.XX",
+    ".X..",
+    "..XX",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 119,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 20,
+   "pob": {
+    "100": 20
+   },
+   "idx": 23639,
+   "forma": [
+    "XXX.",
+    "X.X.",
+    "..XX",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 232,
+   "pob": {
+    "100": 91,
+    "200": 101,
+    "500": 179,
+    "1000": 290,
+    "1500": 232
+   },
+   "idx": 23709,
+   "forma": [
+    "X.XX",
+    "X..X",
+    "..XX",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 58,
+   "pob": {
+    "100": 61,
+    "200": 114,
+    "500": 58,
+    "1000": 58,
+    "1500": 58
+   },
+   "idx": 23867,
+   "forma": [
+    "XX.X",
+    "XX..",
+    "X.XX",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 104,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 21
+   },
+   "idx": 24017,
+   "forma": [
+    "X...",
+    "X.XX",
+    "X.XX",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 53,
+   "pob": {
+    "100": 64,
+    "200": 98,
+    "500": 53,
+    "1000": 53,
+    "1500": 53
+   },
+   "idx": 24219,
+   "forma": [
+    "XX.X",
+    "X..X",
+    ".XXX",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 219,
+   "periodo": 1,
+   "desplaza": false,
+   "pob_final": 28,
+   "pob": {
+    "100": 31,
+    "200": 32
+   },
+   "idx": 24375,
+   "forma": [
+    "XXX.",
+    "XX..",
+    "XXXX",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 176,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 28,
+   "pob": {
+    "100": 57
+   },
+   "idx": 24526,
+   "forma": [
+    ".XXX",
+    "..XX",
+    "XXXX",
+    "X.X."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 174,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 107
+   },
+   "idx": 24875,
+   "forma": [
+    "XX.X",
+    ".X..",
+    "X...",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 171,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 26,
+   "pob": {
+    "100": 31
+   },
+   "idx": 25047,
+   "forma": [
+    "XXX.",
+    "X.XX",
+    "X...",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 175,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 38,
+   "pob": {
+    "100": 45
+   },
+   "idx": 25246,
+   "forma": [
+    ".XXX",
+    "X..X",
+    ".X..",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 114,
+    "200": 143,
+    "500": 165,
+    "1000": 194,
+    "1500": 116
+   },
+   "idx": 25339,
+   "forma": [
+    "XX.X",
+    "XXXX",
+    ".X..",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 174,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 107
+   },
+   "idx": 25496,
+   "forma": [
+    "...X",
+    "X..X",
+    "XX..",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 9,
+   "pob": {
+    "100": 33,
+    "200": 9,
+    "500": 9,
+    "1000": 9,
+    "1500": 9
+   },
+   "idx": 25599,
+   "forma": [
+    "XXXX",
+    "XXXX",
+    "XX..",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 125,
+    "200": 119,
+    "500": 172,
+    "1000": 160,
+    "1500": 116
+   },
+   "idx": 25777,
+   "forma": [
+    "X...",
+    "XX.X",
+    "..X.",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 89,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 25914,
+   "forma": [
+    ".X.X",
+    "XX..",
+    "X.X.",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 175,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 103
+   },
+   "idx": 26053,
+   "forma": [
+    "X.X.",
+    "..XX",
+    "X.X.",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 108,
+    "200": 119,
+    "500": 176,
+    "1000": 163,
+    "1500": 116
+   },
+   "idx": 26339,
+   "forma": [
+    "XX..",
+    ".XXX",
+    ".XX.",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 389,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 48,
+   "pob": {
+    "100": 58,
+    "200": 83
+   },
+   "idx": 26578,
+   "forma": [
+    ".X..",
+    "X.XX",
+    "XXX.",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 175,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 103
+   },
+   "idx": 26765,
+   "forma": [
+    "X.XX",
+    "...X",
+    "...X",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 79,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 26903,
+   "forma": [
+    "XXX.",
+    "X...",
+    "X..X",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 123,
+    "200": 117,
+    "500": 167,
+    "1000": 170,
+    "1500": 116
+   },
+   "idx": 26995,
+   "forma": [
+    "XX..",
+    "XXX.",
+    "X..X",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 361,
+   "pob": {
+    "100": 51,
+    "200": 100,
+    "500": 179,
+    "1000": 386,
+    "1500": 369
+   },
+   "idx": 27065,
+   "forma": [
+    "X..X",
+    "XX.X",
+    "X..X",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 16,
+    "200": 104,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 27127,
+   "forma": [
+    "XXX.",
+    "XXXX",
+    "X..X",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "crece",
+   "pob_final": 405,
+   "pob": {
+    "100": 79,
+    "200": 157,
+    "500": 258,
+    "1000": 229,
+    "1500": 407
+   },
+   "idx": 27321,
+   "forma": [
+    "X..X",
+    "XX.X",
+    ".X.X",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 39,
+   "pob": {
+    "100": 24,
+    "200": 100,
+    "500": 39,
+    "1000": 39,
+    "1500": 39
+   },
+   "idx": 27419,
+   "forma": [
+    "XX.X",
+    "X...",
+    "XX.X",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 271,
+   "pob": {
+    "100": 72,
+    "200": 114,
+    "500": 251,
+    "1000": 275,
+    "1500": 273
+   },
+   "idx": 27487,
+   "forma": [
+    "XXXX",
+    "X.X.",
+    "XX.X",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 108,
+    "200": 119,
+    "500": 176,
+    "1000": 163,
+    "1500": 116
+   },
+   "idx": 27553,
+   "forma": [
+    "X...",
+    ".X.X",
+    "XX.X",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 45,
+   "pob": {
+    "100": 31,
+    "200": 103,
+    "500": 45,
+    "1000": 45,
+    "1500": 45
+   },
+   "idx": 27596,
+   "forma": [
+    "..XX",
+    "..XX",
+    "XX.X",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 122,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 40
+   },
+   "idx": 27683,
+   "forma": [
+    "XX..",
+    ".X..",
+    "..XX",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 52,
+   "pob": {
+    "100": 83,
+    "200": 118,
+    "500": 52,
+    "1000": 52,
+    "1500": 52
+   },
+   "idx": 27769,
+   "forma": [
+    "X..X",
+    "XXX.",
+    "..XX",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 386,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 48,
+   "pob": {
+    "100": 53,
+    "200": 73
+   },
+   "idx": 27939,
+   "forma": [
+    "XX..",
+    ".X..",
+    "X.XX",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 9,
+   "pob": {
+    "100": 25,
+    "200": 9,
+    "500": 9,
+    "1000": 9,
+    "1500": 9
+   },
+   "idx": 27990,
+   "forma": [
+    ".XX.",
+    "X.X.",
+    "X.XX",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 82,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 28038,
+   "forma": [
+    ".XX.",
+    "...X",
+    "X.XX",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 123,
+    "200": 117,
+    "500": 167,
+    "1000": 170,
+    "1500": 116
+   },
+   "idx": 28114,
+   "forma": [
+    ".X..",
+    "X.XX",
+    "X.XX",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 181,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 99
+   },
+   "idx": 28312,
+   "forma": [
+    "...X",
+    "X..X",
+    ".XXX",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 42,
+   "pob": {
+    "100": 59,
+    "200": 75,
+    "500": 42,
+    "1000": 42,
+    "1500": 42
+   },
+   "idx": 28499,
+   "forma": [
+    "XX..",
+    "X.X.",
+    "XXXX",
+    ".XX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 62,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 28703,
+   "forma": [
+    "XXXX",
+    "X...",
+    "....",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 121,
+   "pob": {
+    "100": 78,
+    "200": 138,
+    "500": 206,
+    "1000": 204,
+    "1500": 121
+   },
+   "idx": 28894,
+   "forma": [
+    ".XXX",
+    "X.XX",
+    "....",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 71,
+   "pob": {
+    "100": 119,
+    "200": 83,
+    "500": 71,
+    "1000": 71,
+    "1500": 71
+   },
+   "idx": 29034,
+   "forma": [
+    ".X.X",
+    ".XX.",
+    "X...",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 37,
+   "pob": {
+    "100": 53,
+    "200": 43,
+    "500": 37,
+    "1000": 37,
+    "1500": 37
+   },
+   "idx": 29142,
+   "forma": [
+    ".XX.",
+    "X.XX",
+    "X...",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 175,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 103
+   },
+   "idx": 29256,
+   "forma": [
+    "...X",
+    "..X.",
+    ".X..",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 97,
+   "pob": {
+    "100": 49,
+    "200": 70,
+    "500": 97,
+    "1000": 97,
+    "1500": 97
+   },
+   "idx": 29341,
+   "forma": [
+    "X.XX",
+    "X..X",
+    ".X..",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 173,
+   "pob": {
+    "100": 29,
+    "200": 83,
+    "500": 77,
+    "1000": 213,
+    "1500": 173
+   },
+   "idx": 29406,
+   "forma": [
+    ".XXX",
+    "X.XX",
+    ".X..",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 174,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 107
+   },
+   "idx": 29453,
+   "forma": [
+    "X.XX",
+    "....",
+    "XX..",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 106,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 21
+   },
+   "idx": 29598,
+   "forma": [
+    ".XXX",
+    "X..X",
+    "XX..",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 176,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 28,
+   "pob": {
+    "100": 57
+   },
+   "idx": 29690,
+   "forma": [
+    ".X.X",
+    "XXXX",
+    "XX..",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "crece",
+   "pob_final": 405,
+   "pob": {
+    "100": 79,
+    "200": 157,
+    "500": 258,
+    "1000": 229,
+    "1500": 407
+   },
+   "idx": 29867,
+   "forma": [
+    "XX.X",
+    ".X.X",
+    "..X.",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 383,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 48,
+   "pob": {
+    "100": 71,
+    "200": 64
+   },
+   "idx": 29982,
+   "forma": [
+    ".XXX",
+    "X...",
+    "X.X.",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 169,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 28,
+   "pob": {
+    "100": 45
+   },
+   "idx": 30107,
+   "forma": [
+    "XX.X",
+    "X..X",
+    "X.X.",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 235,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 89,
+   "pob": {
+    "100": 105,
+    "200": 148
+   },
+   "idx": 30174,
+   "forma": [
+    ".XXX",
+    "X.XX",
+    "X.X.",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 105,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 20
+   },
+   "idx": 30315,
+   "forma": [
+    "XX.X",
+    ".XX.",
+    ".XX.",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 49,
+   "pob": {
+    "100": 66,
+    "200": 95,
+    "500": 49,
+    "1000": 49,
+    "1500": 49
+   },
+   "idx": 30411,
+   "forma": [
+    "XX.X",
+    "..XX",
+    ".XX.",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 19,
+   "pob": {
+    "100": 52,
+    "200": 19,
+    "500": 19,
+    "1000": 19,
+    "1500": 19
+   },
+   "idx": 30552,
+   "forma": [
+    "...X",
+    "X.X.",
+    "XXX.",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 105,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 20
+   },
+   "idx": 30635,
+   "forma": [
+    "XX.X",
+    ".X.X",
+    "XXX.",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 103,
+    "200": 146,
+    "500": 162,
+    "1000": 169,
+    "1500": 116
+   },
+   "idx": 30766,
+   "forma": [
+    ".XXX",
+    ".X..",
+    "...X",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 71,
+   "pob": {
+    "100": 119,
+    "200": 83,
+    "500": 71,
+    "1000": 71,
+    "1500": 71
+   },
+   "idx": 30834,
+   "forma": [
+    ".X..",
+    "XXX.",
+    "...X",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 147,
+   "pob": {
+    "100": 75,
+    "200": 137,
+    "500": 155,
+    "1000": 147,
+    "1500": 147
+   },
+   "idx": 30908,
+   "forma": [
+    "..XX",
+    "XX.X",
+    "...X",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 175,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 103
+   },
+   "idx": 30978,
+   "forma": [
+    ".X..",
+    "....",
+    "X..X",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 71,
+   "pob": {
+    "100": 141,
+    "200": 85,
+    "500": 71,
+    "1000": 71,
+    "1500": 71
+   },
+   "idx": 31032,
+   "forma": [
+    "...X",
+    "XX..",
+    "X..X",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 110,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 34
+   },
+   "idx": 31087,
+   "forma": [
+    "XXXX",
+    ".XX.",
+    "X..X",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 199,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 16,
+   "pob": {
+    "100": 50,
+    "200": 16
+   },
+   "idx": 31139,
+   "forma": [
+    "XX..",
+    ".X.X",
+    "X..X",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 18,
+   "pob": {
+    "100": 18,
+    "200": 18,
+    "500": 18,
+    "1000": 18,
+    "1500": 18
+   },
+   "idx": 31191,
+   "forma": [
+    "XXX.",
+    "X.XX",
+    "X..X",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 87,
+   "pob": {
+    "100": 38,
+    "200": 82,
+    "500": 87,
+    "1000": 87,
+    "1500": 87
+   },
+   "idx": 31290,
+   "forma": [
+    ".X.X",
+    "XX..",
+    ".X.X",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 124,
+   "periodo": 1,
+   "desplaza": false,
+   "pob_final": 14,
+   "pob": {
+    "100": 42
+   },
+   "idx": 31372,
+   "forma": [
+    "..XX",
+    "...X",
+    ".X.X",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "crece",
+   "pob_final": 453,
+   "pob": {
+    "100": 70,
+    "200": 126,
+    "500": 228,
+    "1000": 349,
+    "1500": 472
+   },
+   "idx": 31443,
+   "forma": [
+    "XX..",
+    "X.XX",
+    ".X.X",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 105,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 20
+   },
+   "idx": 31497,
+   "forma": [
+    "X..X",
+    "....",
+    "XX.X",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 19,
+   "pob": {
+    "100": 52,
+    "200": 19,
+    "500": 19,
+    "1000": 19,
+    "1500": 19
+   },
+   "idx": 31576,
+   "forma": [
+    "...X",
+    "X.X.",
+    "XX.X",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 106,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 21
+   },
+   "idx": 31642,
+   "forma": [
+    ".X.X",
+    "X..X",
+    "XX.X",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 111,
+   "periodo": 1,
+   "desplaza": false,
+   "pob_final": 20,
+   "pob": {
+    "100": 72
+   },
+   "idx": 31693,
+   "forma": [
+    "X.XX",
+    "..XX",
+    "XX.X",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 101,
+   "pob": {
+    "100": 72,
+    "200": 162,
+    "500": 101,
+    "1000": 101,
+    "1500": 101
+   },
+   "idx": 31787,
+   "forma": [
+    "XX.X",
+    ".X..",
+    "..XX",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 45,
+   "pob": {
+    "100": 19,
+    "200": 86,
+    "500": 45,
+    "1000": 45,
+    "1500": 45
+   },
+   "idx": 31878,
+   "forma": [
+    ".XX.",
+    "...X",
+    "..XX",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 116,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 18,
+   "pob": {
+    "100": 24
+   },
+   "idx": 31963,
+   "forma": [
+    "XX.X",
+    "X.XX",
+    "..XX",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 24,
+   "pob": {
+    "100": 24,
+    "200": 24,
+    "500": 24,
+    "1000": 24,
+    "1500": 24
+   },
+   "idx": 32015,
+   "forma": [
+    "XXXX",
+    "....",
+    "X.XX",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 199,
+   "pob": {
+    "100": 86,
+    "200": 127,
+    "500": 363,
+    "1000": 199,
+    "1500": 199
+   },
+   "idx": 32103,
+   "forma": [
+    "XXX.",
+    ".XX.",
+    "X.XX",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 104,
+   "pob": {
+    "100": 65,
+    "200": 130,
+    "500": 120,
+    "1000": 104,
+    "1500": 104
+   },
+   "idx": 32201,
+   "forma": [
+    "X..X",
+    "..XX",
+    "X.XX",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 680,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 60,
+   "pob": {
+    "100": 48,
+    "200": 93,
+    "500": 82
+   },
+   "idx": 32334,
+   "forma": [
+    ".XXX",
+    "..X.",
+    ".XXX",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 97,
+   "pob": {
+    "100": 66,
+    "200": 67,
+    "500": 97,
+    "1000": 97,
+    "1500": 97
+   },
+   "idx": 32535,
+   "forma": [
+    "XXX.",
+    "X...",
+    "XXXX",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 9,
+   "pob": {
+    "100": 33,
+    "200": 9,
+    "500": 9,
+    "1000": 9,
+    "1500": 9
+   },
+   "idx": 32691,
+   "forma": [
+    "XX..",
+    "XX.X",
+    "XXXX",
+    "XXX."
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 121,
+    "200": 137,
+    "500": 165,
+    "1000": 164,
+    "1500": 116
+   },
+   "idx": 33121,
+   "forma": [
+    "X...",
+    ".XX.",
+    "X...",
+    "...X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 121,
+    "200": 137,
+    "500": 165,
+    "1000": 164,
+    "1500": 116
+   },
+   "idx": 33250,
+   "forma": [
+    ".X..",
+    ".XXX",
+    "X...",
+    "...X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 176,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 131
+   },
+   "idx": 33513,
+   "forma": [
+    "X..X",
+    ".XXX",
+    ".X..",
+    "...X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 174,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 107
+   },
+   "idx": 33733,
+   "forma": [
+    "X.X.",
+    "..XX",
+    "XX..",
+    "...X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 103,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 20
+   },
+   "idx": 33899,
+   "forma": [
+    "XX.X",
+    ".XX.",
+    "..X.",
+    "...X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 181,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 99
+   },
+   "idx": 34163,
+   "forma": [
+    "XX..",
+    "XXX.",
+    "X.X.",
+    "...X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 175,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 103
+   },
+   "idx": 34258,
+   "forma": [
+    ".X..",
+    "X.XX",
+    "X.X.",
+    "...X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 121,
+    "200": 137,
+    "500": 165,
+    "1000": 164,
+    "1500": 116
+   },
+   "idx": 34433,
+   "forma": [
+    "X...",
+    "...X",
+    ".XX.",
+    "...X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 9,
+   "pob": {
+    "100": 25,
+    "200": 9,
+    "500": 9,
+    "1000": 9,
+    "1500": 9
+   },
+   "idx": 34609,
+   "forma": [
+    "X...",
+    "XX..",
+    "XXX.",
+    "...X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 123,
+    "200": 117,
+    "500": 167,
+    "1000": 170,
+    "1500": 116
+   },
+   "idx": 34742,
+   "forma": [
+    ".XX.",
+    "XX.X",
+    "XXX.",
+    "...X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 103,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 20
+   },
+   "idx": 34966,
+   "forma": [
+    ".XX.",
+    "X..X",
+    "...X",
+    "...X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 112,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 36
+   },
+   "idx": 35133,
+   "forma": [
+    "X.XX",
+    "XX..",
+    "X..X",
+    "...X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 13,
+   "pob": {
+    "100": 13,
+    "200": 13,
+    "500": 13,
+    "1000": 13,
+    "1500": 13
+   },
+   "idx": 35279,
+   "forma": [
+    "XXXX",
+    "..XX",
+    "X..X",
+    "...X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 79,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 35467,
+   "forma": [
+    "XX.X",
+    "...X",
+    ".X.X",
+    "...X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 309,
+   "periodo": 1,
+   "desplaza": false,
+   "pob_final": 50,
+   "pob": {
+    "100": 61,
+    "200": 76
+   },
+   "idx": 35561,
+   "forma": [
+    "X..X",
+    ".XXX",
+    ".X.X",
+    "...X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 132,
+    "200": 115,
+    "500": 163,
+    "1000": 158,
+    "1500": 116
+   },
+   "idx": 35734,
+   "forma": [
+    ".XX.",
+    "X..X",
+    "XX.X",
+    "...X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 173,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 26,
+   "pob": {
+    "100": 37
+   },
+   "idx": 35813,
+   "forma": [
+    "X.X.",
+    ".XXX",
+    "XX.X",
+    "...X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 386,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 48,
+   "pob": {
+    "100": 53,
+    "200": 73
+   },
+   "idx": 35955,
+   "forma": [
+    "XX..",
+    "XXX.",
+    "..XX",
+    "...X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 9,
+   "pob": {
+    "100": 25,
+    "200": 9,
+    "500": 9,
+    "1000": 9,
+    "1500": 9
+   },
+   "idx": 36065,
+   "forma": [
+    "X...",
+    ".XXX",
+    "..XX",
+    "...X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 88,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 36217,
+   "forma": [
+    "X..X",
+    "XXX.",
+    "X.XX",
+    "...X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 9,
+   "pob": {
+    "100": 9,
+    "200": 9,
+    "500": 9,
+    "1000": 9,
+    "1500": 9
+   },
+   "idx": 36287,
+   "forma": [
+    "XXXX",
+    "XX.X",
+    "X.XX",
+    "...X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 175,
+   "pob": {
+    "100": 80,
+    "200": 152,
+    "500": 172,
+    "1000": 202,
+    "1500": 175
+   },
+   "idx": 36466,
+   "forma": [
+    ".X..",
+    "XXX.",
+    ".XXX",
+    "...X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 71,
+   "pob": {
+    "100": 119,
+    "200": 91,
+    "500": 71,
+    "1000": 71,
+    "1500": 71
+   },
+   "idx": 36615,
+   "forma": [
+    "XXX.",
+    "....",
+    "XXXX",
+    "...X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 130,
+   "periodo": 1,
+   "desplaza": false,
+   "pob_final": 6,
+   "pob": {
+    "100": 31
+   },
+   "idx": 36785,
+   "forma": [
+    "X...",
+    "XX.X",
+    "XXXX",
+    "...X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 123,
+    "200": 117,
+    "500": 167,
+    "1000": 170,
+    "1500": 116
+   },
+   "idx": 36991,
+   "forma": [
+    "XXXX",
+    "XXX.",
+    "....",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 108,
+    "200": 119,
+    "500": 176,
+    "1000": 163,
+    "1500": 116
+   },
+   "idx": 37142,
+   "forma": [
+    ".XX.",
+    "X...",
+    "X...",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 174,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 107
+   },
+   "idx": 37317,
+   "forma": [
+    "X.X.",
+    "..XX",
+    "X...",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 105,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 20
+   },
+   "idx": 37486,
+   "forma": [
+    ".XXX",
+    ".XX.",
+    ".X..",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 123,
+    "200": 117,
+    "500": 167,
+    "1000": 170,
+    "1500": 116
+   },
+   "idx": 37691,
+   "forma": [
+    "XX.X",
+    "XX..",
+    "XX..",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 79,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 37827,
+   "forma": [
+    "XX..",
+    "..XX",
+    "XX..",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 125,
+    "200": 119,
+    "500": 172,
+    "1000": 160,
+    "1500": 116
+   },
+   "idx": 37935,
+   "forma": [
+    "XXXX",
+    ".X..",
+    "..X.",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 121,
+    "200": 137,
+    "500": 165,
+    "1000": 164,
+    "1500": 116
+   },
+   "idx": 38098,
+   "forma": [
+    ".X..",
+    "X.XX",
+    "..X.",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 132,
+    "200": 115,
+    "500": 163,
+    "1000": 158,
+    "1500": 116
+   },
+   "idx": 38294,
+   "forma": [
+    ".XX.",
+    "X..X",
+    "X.X.",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 100,
+    "200": 131,
+    "500": 151,
+    "1000": 182,
+    "1500": 116
+   },
+   "idx": 38399,
+   "forma": [
+    "XXXX",
+    "XXXX",
+    "X.X.",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 9,
+   "pob": {
+    "100": 25,
+    "200": 9,
+    "500": 9,
+    "1000": 9,
+    "1500": 9
+   },
+   "idx": 38614,
+   "forma": [
+    ".XX.",
+    "X.XX",
+    ".XX.",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 431,
+   "pob": {
+    "100": 80,
+    "200": 212,
+    "500": 157,
+    "1000": 365,
+    "1500": 456
+   },
+   "idx": 38748,
+   "forma": [
+    "..XX",
+    "X.X.",
+    "XXX.",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 377,
+   "pob": {
+    "100": 64,
+    "200": 91,
+    "500": 255,
+    "1000": 304,
+    "1500": 364
+   },
+   "idx": 38876,
+   "forma": [
+    "..XX",
+    "X.XX",
+    "XXX.",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 175,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 103
+   },
+   "idx": 39034,
+   "forma": [
+    ".X.X",
+    "XXX.",
+    "...X",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 9,
+   "pob": {
+    "100": 27,
+    "200": 9,
+    "500": 9,
+    "1000": 9,
+    "1500": 9
+   },
+   "idx": 39223,
+   "forma": [
+    "XXX.",
+    "XX..",
+    "X..X",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 106,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 21
+   },
+   "idx": 39347,
+   "forma": [
+    "XX..",
+    "XX.X",
+    "X..X",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 106,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 21
+   },
+   "idx": 39471,
+   "forma": [
+    "XXXX",
+    ".X..",
+    ".X.X",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 269,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 30,
+   "pob": {
+    "100": 41,
+    "200": 50
+   },
+   "idx": 39610,
+   "forma": [
+    ".X.X",
+    "XX.X",
+    ".X.X",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 97,
+    "200": 132,
+    "500": 162,
+    "1000": 177,
+    "1500": 116
+   },
+   "idx": 39711,
+   "forma": [
+    "XXXX",
+    "X...",
+    "XX.X",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 9,
+   "pob": {
+    "100": 25,
+    "200": 9,
+    "500": 9,
+    "1000": 9,
+    "1500": 9
+   },
+   "idx": 39782,
+   "forma": [
+    ".XX.",
+    ".XX.",
+    "XX.X",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 12,
+   "pob": {
+    "100": 12,
+    "200": 12,
+    "500": 12,
+    "1000": 12,
+    "1500": 12
+   },
+   "idx": 39873,
+   "forma": [
+    "X...",
+    "..XX",
+    "XX.X",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 121,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 47
+   },
+   "idx": 39959,
+   "forma": [
+    "XXX.",
+    "X...",
+    "..XX",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 17,
+   "pob": {
+    "100": 17,
+    "200": 17,
+    "500": 17,
+    "1000": 17,
+    "1500": 17
+   },
+   "idx": 40094,
+   "forma": [
+    ".XXX",
+    "X..X",
+    "..XX",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 9,
+   "pob": {
+    "100": 22,
+    "200": 9,
+    "500": 9,
+    "1000": 9,
+    "1500": 9
+   },
+   "idx": 40187,
+   "forma": [
+    "XX.X",
+    "XXXX",
+    "..XX",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "crece",
+   "pob_final": 405,
+   "pob": {
+    "100": 79,
+    "200": 157,
+    "500": 258,
+    "1000": 229,
+    "1500": 407
+   },
+   "idx": 40252,
+   "forma": [
+    "..XX",
+    "XX..",
+    "X.XX",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 23,
+    "200": 105,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 40332,
+   "forma": [
+    "..XX",
+    "...X",
+    "X.XX",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 39,
+   "pob": {
+    "100": 26,
+    "200": 112,
+    "500": 39,
+    "1000": 39,
+    "1500": 39
+   },
+   "idx": 40424,
+   "forma": [
+    "...X",
+    ".XXX",
+    "X.XX",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 52,
+   "pob": {
+    "100": 83,
+    "200": 118,
+    "500": 52,
+    "1000": 52,
+    "1500": 52
+   },
+   "idx": 40562,
+   "forma": [
+    ".X..",
+    "XXX.",
+    ".XXX",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 44,
+   "pob": {
+    "100": 32,
+    "200": 69,
+    "500": 44,
+    "1000": 44,
+    "1500": 44
+   },
+   "idx": 40636,
+   "forma": [
+    "..XX",
+    "XX.X",
+    ".XXX",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 171,
+   "periodo": 1,
+   "desplaza": false,
+   "pob_final": 12,
+   "pob": {
+    "100": 25
+   },
+   "idx": 40887,
+   "forma": [
+    "XXX.",
+    "XX.X",
+    "XXXX",
+    "X..X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 123,
+    "200": 117,
+    "500": 167,
+    "1000": 170,
+    "1500": 116
+   },
+   "idx": 41183,
+   "forma": [
+    "XXXX",
+    "X.XX",
+    "....",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 121,
+    "200": 120,
+    "500": 174,
+    "1000": 156,
+    "1500": 116
+   },
+   "idx": 41330,
+   "forma": [
+    ".X..",
+    "XXX.",
+    "X...",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 114,
+    "200": 143,
+    "500": 165,
+    "1000": 194,
+    "1500": 116
+   },
+   "idx": 41487,
+   "forma": [
+    "XXXX",
+    "....",
+    ".X..",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 176,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 38,
+   "pob": {
+    "100": 47
+   },
+   "idx": 41693,
+   "forma": [
+    "X.XX",
+    "X.XX",
+    ".X..",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 174,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 107
+   },
+   "idx": 41797,
+   "forma": [
+    "X.X.",
+    "..X.",
+    "XX..",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 9,
+   "pob": {
+    "100": 25,
+    "200": 9,
+    "500": 9,
+    "1000": 9,
+    "1500": 9
+   },
+   "idx": 41868,
+   "forma": [
+    "..XX",
+    "...X",
+    "XX..",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 101,
+   "pob": {
+    "100": 72,
+    "200": 162,
+    "500": 101,
+    "1000": 101,
+    "1500": 101
+   },
+   "idx": 41945,
+   "forma": [
+    "X..X",
+    "X.XX",
+    "XX..",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 45,
+   "pob": {
+    "100": 24,
+    "200": 92,
+    "500": 45,
+    "1000": 45,
+    "1500": 45
+   },
+   "idx": 42067,
+   "forma": [
+    "XX..",
+    "X.X.",
+    "..X.",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 109,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 23,
+   "pob": {
+    "100": 37
+   },
+   "idx": 42271,
+   "forma": [
+    "XXXX",
+    "X...",
+    "X.X.",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 9,
+   "pob": {
+    "100": 25,
+    "200": 9,
+    "500": 9,
+    "1000": 9,
+    "1500": 9
+   },
+   "idx": 42412,
+   "forma": [
+    "..XX",
+    ".X.X",
+    "X.X.",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 71,
+   "pob": {
+    "100": 119,
+    "200": 83,
+    "500": 71,
+    "1000": 71,
+    "1500": 71
+   },
+   "idx": 42519,
+   "forma": [
+    "XXX.",
+    "X...",
+    ".XX.",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 108,
+    "200": 119,
+    "500": 176,
+    "1000": 163,
+    "1500": 116
+   },
+   "idx": 42677,
+   "forma": [
+    "X.X.",
+    "XX.X",
+    ".XX.",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 52,
+   "pob": {
+    "100": 83,
+    "200": 118,
+    "500": 52,
+    "1000": 52,
+    "1500": 52
+   },
+   "idx": 42860,
+   "forma": [
+    "..XX",
+    ".XX.",
+    "XXX.",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 174,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 107
+   },
+   "idx": 43066,
+   "forma": [
+    ".X.X",
+    "XX..",
+    "...X",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 108,
+    "200": 119,
+    "500": 176,
+    "1000": 163,
+    "1500": 116
+   },
+   "idx": 43245,
+   "forma": [
+    "X.XX",
+    ".XXX",
+    "...X",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 108,
+    "200": 119,
+    "500": 176,
+    "1000": 163,
+    "1500": 116
+   },
+   "idx": 43352,
+   "forma": [
+    "...X",
+    "X.X.",
+    "X..X",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 103,
+    "200": 146,
+    "500": 162,
+    "1000": 169,
+    "1500": 116
+   },
+   "idx": 43473,
+   "forma": [
+    "X...",
+    "X.XX",
+    "X..X",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 177,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 117
+   },
+   "idx": 43621,
+   "forma": [
+    "X.X.",
+    ".XX.",
+    ".X.X",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 36,
+   "pob": {
+    "100": 24,
+    "200": 93,
+    "500": 36,
+    "1000": 36,
+    "1500": 36
+   },
+   "idx": 43853,
+   "forma": [
+    "X.XX",
+    "..X.",
+    "XX.X",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 269,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 30,
+   "pob": {
+    "100": 41,
+    "200": 50
+   },
+   "idx": 43945,
+   "forma": [
+    "X..X",
+    ".X.X",
+    "XX.X",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 121,
+   "pob": {
+    "100": 102,
+    "200": 137,
+    "500": 167,
+    "1000": 182,
+    "1500": 121
+   },
+   "idx": 44167,
+   "forma": [
+    "XXX.",
+    "...X",
+    "..XX",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 174,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 107
+   },
+   "idx": 44292,
+   "forma": [
+    "..X.",
+    "....",
+    "X.XX",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 386,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 48,
+   "pob": {
+    "100": 53,
+    "200": 73
+   },
+   "idx": 44410,
+   "forma": [
+    ".X.X",
+    "XXX.",
+    "X.XX",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 245,
+   "pob": {
+    "100": 81,
+    "200": 110,
+    "500": 285,
+    "1000": 245,
+    "1500": 245
+   },
+   "idx": 44479,
+   "forma": [
+    "XXXX",
+    "XX.X",
+    "X.XX",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 199,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 28,
+   "pob": {
+    "100": 39,
+    "200": 28
+   },
+   "idx": 44687,
+   "forma": [
+    "XXXX",
+    "...X",
+    ".XXX",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 33,
+   "pob": {
+    "100": 73,
+    "200": 65,
+    "500": 33,
+    "1000": 33,
+    "1500": 33
+   },
+   "idx": 44838,
+   "forma": [
+    ".XX.",
+    ".X..",
+    "XXXX",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 74,
+    "200": 147,
+    "500": 184,
+    "1000": 222,
+    "1500": 116
+   },
+   "idx": 44969,
+   "forma": [
+    "X..X",
+    ".X.X",
+    "XXXX",
+    ".X.X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 177,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 117
+   },
+   "idx": 45230,
+   "forma": [
+    ".XXX",
+    ".X.X",
+    "....",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 125,
+    "200": 119,
+    "500": 172,
+    "1000": 160,
+    "1500": 116
+   },
+   "idx": 45357,
+   "forma": [
+    "X.XX",
+    ".X..",
+    "X...",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 122,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 40
+   },
+   "idx": 45421,
+   "forma": [
+    "X.XX",
+    ".XX.",
+    "X...",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 388,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 48,
+   "pob": {
+    "100": 61,
+    "200": 88
+   },
+   "idx": 45506,
+   "forma": [
+    ".X..",
+    "..XX",
+    "X...",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 60,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 45547,
+   "forma": [
+    "XX.X",
+    ".XXX",
+    "X...",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 19,
+   "pob": {
+    "100": 49,
+    "200": 19,
+    "500": 19,
+    "1000": 19,
+    "1500": 19
+   },
+   "idx": 45643,
+   "forma": [
+    "XX.X",
+    "..X.",
+    ".X..",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 61,
+   "pob": {
+    "100": 65,
+    "200": 154,
+    "500": 61,
+    "1000": 61,
+    "1500": 61
+   },
+   "idx": 45741,
+   "forma": [
+    "X.XX",
+    ".X.X",
+    ".X..",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 389,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 48,
+   "pob": {
+    "100": 58,
+    "200": 83
+   },
+   "idx": 45809,
+   "forma": [
+    "X...",
+    "XXXX",
+    ".X..",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 78,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 45898,
+   "forma": [
+    ".X.X",
+    "..X.",
+    "XX..",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 123,
+    "200": 117,
+    "500": 167,
+    "1000": 170,
+    "1500": 116
+   },
+   "idx": 45971,
+   "forma": [
+    "XX..",
+    "X..X",
+    "XX..",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 172,
+   "pob": {
+    "100": 65,
+    "200": 190,
+    "500": 140,
+    "1000": 308,
+    "1500": 172
+   },
+   "idx": 46042,
+   "forma": [
+    ".X.X",
+    "X.XX",
+    "XX..",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 124,
+    "200": 130,
+    "500": 162,
+    "1000": 160,
+    "1500": 116
+   },
+   "idx": 46177,
+   "forma": [
+    "X...",
+    ".XX.",
+    "..X.",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 39,
+   "pob": {
+    "100": 26,
+    "200": 112,
+    "500": 39,
+    "1000": 39,
+    "1500": 39
+   },
+   "idx": 46348,
+   "forma": [
+    "..XX",
+    "....",
+    "X.X.",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 176,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 131
+   },
+   "idx": 46451,
+   "forma": [
+    "XX..",
+    "XXX.",
+    "X.X.",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 122,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 40
+   },
+   "idx": 46537,
+   "forma": [
+    "X..X",
+    "..XX",
+    "X.X.",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 105,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 20
+   },
+   "idx": 46711,
+   "forma": [
+    "XXX.",
+    "XXX.",
+    ".XX.",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 424,
+   "pob": {
+    "100": 33,
+    "200": 125,
+    "500": 385,
+    "1000": 440,
+    "1500": 419
+   },
+   "idx": 47038,
+   "forma": [
+    ".XXX",
+    "XX.X",
+    "XXX.",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 431,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 77,
+   "pob": {
+    "100": 34,
+    "200": 81
+   },
+   "idx": 47282,
+   "forma": [
+    ".X..",
+    "XX.X",
+    "...X",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 291,
+   "pob": {
+    "100": 226,
+    "200": 250,
+    "500": 431,
+    "1000": 356,
+    "1500": 291
+   },
+   "idx": 47383,
+   "forma": [
+    "XXX.",
+    "X...",
+    "X..X",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 32,
+   "pob": {
+    "100": 24,
+    "200": 70,
+    "500": 32,
+    "1000": 32,
+    "1500": 32
+   },
+   "idx": 47439,
+   "forma": [
+    "XXXX",
+    "..X.",
+    "X..X",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 168,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 16,
+   "pob": {
+    "100": 36
+   },
+   "idx": 47512,
+   "forma": [
+    "...X",
+    "X..X",
+    "X..X",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 195,
+   "pob": {
+    "100": 131,
+    "200": 90,
+    "500": 219,
+    "1000": 280,
+    "1500": 195
+   },
+   "idx": 47565,
+   "forma": [
+    "X.XX",
+    "..XX",
+    "X..X",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 70,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 47695,
+   "forma": [
+    "XXXX",
+    "..X.",
+    ".X.X",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 405,
+   "pob": {
+    "100": 38,
+    "200": 157,
+    "500": 402,
+    "1000": 470,
+    "1500": 416
+   },
+   "idx": 47819,
+   "forma": [
+    "XX.X",
+    "..XX",
+    ".X.X",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 33,
+   "pob": {
+    "100": 82,
+    "200": 57,
+    "500": 33,
+    "1000": 33,
+    "1500": 33
+   },
+   "idx": 47992,
+   "forma": [
+    "...X",
+    "XXX.",
+    "XX.X",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 175,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 103
+   },
+   "idx": 48130,
+   "forma": [
+    ".X..",
+    "....",
+    "..XX",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 176,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 131
+   },
+   "idx": 48261,
+   "forma": [
+    "X.X.",
+    "...X",
+    "..XX",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 54,
+   "pob": {
+    "100": 99,
+    "200": 54,
+    "500": 54,
+    "1000": 54,
+    "1500": 54
+   },
+   "idx": 48317,
+   "forma": [
+    "X.XX",
+    "XX.X",
+    "..XX",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 347,
+   "pob": {
+    "100": 34,
+    "200": 55,
+    "500": 254,
+    "1000": 317,
+    "1500": 342
+   },
+   "idx": 48411,
+   "forma": [
+    "XX.X",
+    "X...",
+    "X.XX",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 102,
+   "periodo": 1,
+   "desplaza": false,
+   "pob_final": 17,
+   "pob": {
+    "100": 21
+   },
+   "idx": 48516,
+   "forma": [
+    "..X.",
+    "...X",
+    "X.XX",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 46,
+   "pob": {
+    "100": 98,
+    "200": 67,
+    "500": 46,
+    "1000": 46,
+    "1500": 46
+   },
+   "idx": 48599,
+   "forma": [
+    "XXX.",
+    "X.XX",
+    "X.XX",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 87,
+   "pob": {
+    "100": 38,
+    "200": 82,
+    "500": 87,
+    "1000": 87,
+    "1500": 87
+   },
+   "idx": 48771,
+   "forma": [
+    "XX..",
+    "...X",
+    ".XXX",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 258,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 45,
+   "pob": {
+    "100": 62,
+    "200": 87
+   },
+   "idx": 48878,
+   "forma": [
+    ".XXX",
+    ".XXX",
+    ".XXX",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 45,
+   "pob": {
+    "100": 74,
+    "200": 99,
+    "500": 45,
+    "1000": 45,
+    "1500": 45
+   },
+   "idx": 49075,
+   "forma": [
+    "XX..",
+    "XX.X",
+    "XXXX",
+    "XX.X"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 174,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 107
+   },
+   "idx": 49466,
+   "forma": [
+    ".X.X",
+    "XX..",
+    "X...",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 82,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 49587,
+   "forma": [
+    "XX..",
+    "XX.X",
+    "X...",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 176,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 131
+   },
+   "idx": 49827,
+   "forma": [
+    "XX..",
+    ".X.X",
+    ".X..",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 123,
+    "200": 117,
+    "500": 167,
+    "1000": 170,
+    "1500": 116
+   },
+   "idx": 50037,
+   "forma": [
+    "X.X.",
+    "XXX.",
+    "XX..",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 79,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 50121,
+   "forma": [
+    "X..X",
+    "..XX",
+    "XX..",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 61,
+   "pob": {
+    "100": 43,
+    "200": 81,
+    "500": 61,
+    "1000": 61,
+    "1500": 61
+   },
+   "idx": 50247,
+   "forma": [
+    "XXX.",
+    "..X.",
+    "..X.",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 100,
+   "pob": {
+    "100": 79,
+    "200": 87,
+    "500": 172,
+    "1000": 100,
+    "1500": 100
+   },
+   "idx": 50487,
+   "forma": [
+    "XXX.",
+    "XX..",
+    "X.X.",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 19,
+   "pob": {
+    "100": 49,
+    "200": 19,
+    "500": 19,
+    "1000": 19,
+    "1500": 19
+   },
+   "idx": 50572,
+   "forma": [
+    "..XX",
+    "...X",
+    "X.X.",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "crece",
+   "pob_final": 339,
+   "pob": {
+    "100": 147,
+    "200": 110,
+    "500": 262,
+    "1000": 245,
+    "1500": 308
+   },
+   "idx": 50685,
+   "forma": [
+    "X.XX",
+    "XXXX",
+    "X.X.",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 52,
+   "pob": {
+    "100": 83,
+    "200": 118,
+    "500": 52,
+    "1000": 52,
+    "1500": 52
+   },
+   "idx": 50810,
+   "forma": [
+    ".X.X",
+    "XXX.",
+    ".XX.",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 39,
+   "pob": {
+    "100": 73,
+    "200": 39,
+    "500": 39,
+    "1000": 39,
+    "1500": 39
+   },
+   "idx": 51007,
+   "forma": [
+    "XXXX",
+    "XX..",
+    "XXX.",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 108,
+    "200": 119,
+    "500": 176,
+    "1000": 163,
+    "1500": 116
+   },
+   "idx": 51169,
+   "forma": [
+    "X...",
+    ".XXX",
+    "XXX.",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 201,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 18,
+   "pob": {
+    "100": 51,
+    "200": 20
+   },
+   "idx": 51303,
+   "forma": [
+    "XXX.",
+    ".XX.",
+    "...X",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 200,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 18,
+   "pob": {
+    "100": 57,
+    "200": 18
+   },
+   "idx": 51383,
+   "forma": [
+    "XXX.",
+    "XX.X",
+    "...X",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 103,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 20
+   },
+   "idx": 51497,
+   "forma": [
+    "X..X",
+    ".X..",
+    "X..X",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 45,
+   "pob": {
+    "100": 24,
+    "200": 92,
+    "500": 45,
+    "1000": 45,
+    "1500": 45
+   },
+   "idx": 51553,
+   "forma": [
+    "X...",
+    ".XX.",
+    "X..X",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 175,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 38,
+   "pob": {
+    "100": 45
+   },
+   "idx": 51636,
+   "forma": [
+    "..X.",
+    "XX.X",
+    "X..X",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 103,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 20
+   },
+   "idx": 51737,
+   "forma": [
+    "X..X",
+    "X...",
+    ".X.X",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 201,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 18,
+   "pob": {
+    "100": 51,
+    "200": 20
+   },
+   "idx": 51799,
+   "forma": [
+    "XXX.",
+    "X.X.",
+    ".X.X",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 50,
+   "pob": {
+    "100": 50,
+    "200": 104,
+    "500": 50,
+    "1000": 50,
+    "1500": 50
+   },
+   "idx": 51929,
+   "forma": [
+    "X..X",
+    "X.XX",
+    ".X.X",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 386,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 48,
+   "pob": {
+    "100": 53,
+    "200": 73
+   },
+   "idx": 52018,
+   "forma": [
+    ".X..",
+    "XX..",
+    "XX.X",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 64,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 52085,
+   "forma": [
+    "X.X.",
+    "XXX.",
+    "XX.X",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 208,
+   "pob": {
+    "100": 114,
+    "200": 220,
+    "500": 247,
+    "1000": 208,
+    "1500": 208
+   },
+   "idx": 52147,
+   "forma": [
+    "XX..",
+    "XX.X",
+    "XX.X",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 44,
+   "pob": {
+    "100": 32,
+    "200": 69,
+    "500": 44,
+    "1000": 44,
+    "1500": 44
+   },
+   "idx": 52201,
+   "forma": [
+    "X..X",
+    ".XXX",
+    "XX.X",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 65,
+   "pob": {
+    "100": 173,
+    "200": 65,
+    "500": 65,
+    "1000": 65,
+    "1500": 65
+   },
+   "idx": 52387,
+   "forma": [
+    "XX..",
+    ".X.X",
+    "..XX",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 89,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 52518,
+   "forma": [
+    ".XX.",
+    ".X..",
+    "X.XX",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 176,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 131
+   },
+   "idx": 52613,
+   "forma": [
+    "X.X.",
+    "...X",
+    "X.XX",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 335,
+   "pob": {
+    "100": 57,
+    "200": 192,
+    "500": 305,
+    "1000": 432,
+    "1500": 325
+   },
+   "idx": 52667,
+   "forma": [
+    "XX.X",
+    "XX.X",
+    "X.XX",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 104,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 21
+   },
+   "idx": 52751,
+   "forma": [
+    "XXXX",
+    "....",
+    ".XXX",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 182,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 105
+   },
+   "idx": 52921,
+   "forma": [
+    "X..X",
+    "XX.X",
+    ".XXX",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 235,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 89,
+   "pob": {
+    "100": 105,
+    "200": 148
+   },
+   "idx": 53159,
+   "forma": [
+    "XXX.",
+    ".X.X",
+    "XXXX",
+    "..XX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 112,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 36
+   },
+   "idx": 53543,
+   "forma": [
+    "XXX.",
+    ".X..",
+    "X...",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 187,
+   "periodo": 1,
+   "desplaza": false,
+   "pob_final": 23,
+   "pob": {
+    "100": 25
+   },
+   "idx": 53655,
+   "forma": [
+    "XXX.",
+    "X..X",
+    "X...",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 175,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 103
+   },
+   "idx": 53820,
+   "forma": [
+    "..XX",
+    "XX..",
+    ".X..",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 9,
+   "pob": {
+    "100": 25,
+    "200": 9,
+    "500": 9,
+    "1000": 9,
+    "1500": 9
+   },
+   "idx": 53974,
+   "forma": [
+    ".XX.",
+    "X.XX",
+    ".X..",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 49,
+   "pob": {
+    "100": 66,
+    "200": 95,
+    "500": 49,
+    "1000": 49,
+    "1500": 49
+   },
+   "idx": 54126,
+   "forma": [
+    ".XXX",
+    ".XX.",
+    "XX..",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 52,
+   "pob": {
+    "100": 83,
+    "200": 118,
+    "500": 52,
+    "1000": 52,
+    "1500": 52
+   },
+   "idx": 54221,
+   "forma": [
+    "X.XX",
+    "..XX",
+    "XX..",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 51,
+   "pob": {
+    "100": 101,
+    "200": 66,
+    "500": 51,
+    "1000": 51,
+    "1500": 51
+   },
+   "idx": 54319,
+   "forma": [
+    "XXXX",
+    ".X..",
+    "..X.",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 174,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 107
+   },
+   "idx": 54411,
+   "forma": [
+    "XX.X",
+    "...X",
+    "..X.",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 9,
+   "pob": {
+    "100": 22,
+    "200": 9,
+    "500": 9,
+    "1000": 9,
+    "1500": 9
+   },
+   "idx": 54495,
+   "forma": [
+    "XXXX",
+    "X.XX",
+    "..X.",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 202,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 32,
+   "pob": {
+    "100": 75,
+    "200": 37
+   },
+   "idx": 54679,
+   "forma": [
+    "XXX.",
+    "X..X",
+    "X.X.",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 9,
+   "pob": {
+    "100": 25,
+    "200": 9,
+    "500": 9,
+    "1000": 9,
+    "1500": 9
+   },
+   "idx": 54829,
+   "forma": [
+    "X.XX",
+    ".X..",
+    ".XX.",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 60,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 55083,
+   "forma": [
+    "XX.X",
+    ".X..",
+    "XXX.",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 195,
+   "pob": {
+    "100": 139,
+    "200": 116,
+    "500": 210,
+    "1000": 293,
+    "1500": 195
+   },
+   "idx": 55257,
+   "forma": [
+    "X..X",
+    "X.XX",
+    "XXX.",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 103,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 20
+   },
+   "idx": 55363,
+   "forma": [
+    "XX..",
+    "..X.",
+    "...X",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 60,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 55421,
+   "forma": [
+    "X.XX",
+    "XXX.",
+    "...X",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 405,
+   "pob": {
+    "100": 38,
+    "200": 157,
+    "500": 402,
+    "1000": 470,
+    "1500": 416
+   },
+   "idx": 55483,
+   "forma": [
+    "XX.X",
+    "XX.X",
+    "...X",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 9,
+   "pob": {
+    "100": 22,
+    "200": 9,
+    "500": 9,
+    "1000": 9,
+    "1500": 9
+   },
+   "idx": 55549,
+   "forma": [
+    "X.XX",
+    "XXXX",
+    "...X",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 232,
+   "pob": {
+    "100": 91,
+    "200": 101,
+    "500": 179,
+    "1000": 290,
+    "1500": 232
+   },
+   "idx": 55622,
+   "forma": [
+    ".XX.",
+    "..X.",
+    "X..X",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 195,
+   "pob": {
+    "100": 139,
+    "200": 116,
+    "500": 210,
+    "1000": 293,
+    "1500": 195
+   },
+   "idx": 55677,
+   "forma": [
+    "X.XX",
+    "XXX.",
+    "X..X",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 203,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 18,
+   "pob": {
+    "100": 50,
+    "200": 25
+   },
+   "idx": 55753,
+   "forma": [
+    "X..X",
+    "..XX",
+    "X..X",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 110,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 27,
+   "pob": {
+    "100": 47
+   },
+   "idx": 55807,
+   "forma": [
+    "XXXX",
+    "XXXX",
+    "X..X",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 241,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 46,
+   "pob": {
+    "100": 44,
+    "200": 134
+   },
+   "idx": 55886,
+   "forma": [
+    ".XXX",
+    "..X.",
+    ".X.X",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 53,
+   "pob": {
+    "100": 91,
+    "200": 72,
+    "500": 53,
+    "1000": 53,
+    "1500": 53
+   },
+   "idx": 56011,
+   "forma": [
+    "XX.X",
+    "..XX",
+    ".X.X",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 19,
+   "pob": {
+    "100": 49,
+    "200": 19,
+    "500": 19,
+    "1000": 19,
+    "1500": 19
+   },
+   "idx": 56073,
+   "forma": [
+    "X..X",
+    "....",
+    "XX.X",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 187,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 95
+   },
+   "idx": 56151,
+   "forma": [
+    "XXX.",
+    "X.X.",
+    "XX.X",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 672,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 60,
+   "pob": {
+    "100": 60,
+    "200": 79,
+    "500": 87
+   },
+   "idx": 56232,
+   "forma": [
+    "...X",
+    ".X.X",
+    "XX.X",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 174,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 107
+   },
+   "idx": 56340,
+   "forma": [
+    "..X.",
+    "X...",
+    "..XX",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 105,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 20
+   },
+   "idx": 56453,
+   "forma": [
+    "X.X.",
+    "...X",
+    "..XX",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 111,
+   "periodo": 1,
+   "desplaza": false,
+   "pob_final": 20,
+   "pob": {
+    "100": 72
+   },
+   "idx": 56503,
+   "forma": [
+    "XXX.",
+    "XX.X",
+    "..XX",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 9,
+   "pob": {
+    "100": 33,
+    "200": 9,
+    "500": 9,
+    "1000": 9,
+    "1500": 9
+   },
+   "idx": 56574,
+   "forma": [
+    ".XXX",
+    "XXXX",
+    "..XX",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 64,
+   "pob": {
+    "100": 59,
+    "200": 62,
+    "500": 64,
+    "1000": 64,
+    "1500": 64
+   },
+   "idx": 56743,
+   "forma": [
+    "XXX.",
+    ".X.X",
+    "X.XX",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 108,
+    "200": 119,
+    "500": 176,
+    "1000": 163,
+    "1500": 116
+   },
+   "idx": 56970,
+   "forma": [
+    ".X.X",
+    "...X",
+    ".XXX",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 97,
+    "200": 132,
+    "500": 162,
+    "1000": 177,
+    "1500": 116
+   },
+   "idx": 57230,
+   "forma": [
+    ".XXX",
+    "...X",
+    "XXXX",
+    "X.XX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 79,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 57464,
+   "forma": [
+    "...X",
+    "XXX.",
+    "....",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 103,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 20
+   },
+   "idx": 57618,
+   "forma": [
+    ".X..",
+    "X...",
+    "X...",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 361,
+   "pob": {
+    "100": 51,
+    "200": 100,
+    "500": 179,
+    "1000": 386,
+    "1500": 369
+   },
+   "idx": 57694,
+   "forma": [
+    ".XXX",
+    "X.X.",
+    "X...",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 388,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 48,
+   "pob": {
+    "100": 61,
+    "200": 88
+   },
+   "idx": 57770,
+   "forma": [
+    ".X.X",
+    ".X.X",
+    "X...",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 83,
+   "pob": {
+    "100": 57,
+    "200": 81,
+    "500": 83,
+    "1000": 83,
+    "1500": 83
+   },
+   "idx": 57854,
+   "forma": [
+    ".XXX",
+    "XXXX",
+    "X...",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 97,
+   "pob": {
+    "100": 60,
+    "200": 142,
+    "500": 198,
+    "1000": 97,
+    "1500": 97
+   },
+   "idx": 57951,
+   "forma": [
+    "XXXX",
+    "X.X.",
+    ".X..",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 100,
+    "200": 131,
+    "500": 151,
+    "1000": 182,
+    "1500": 116
+   },
+   "idx": 58152,
+   "forma": [
+    "...X",
+    ".X..",
+    "XX..",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 385,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 48,
+   "pob": {
+    "100": 72,
+    "200": 68
+   },
+   "idx": 58228,
+   "forma": [
+    "..X.",
+    "XXX.",
+    "XX..",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 178,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 99
+   },
+   "idx": 58297,
+   "forma": [
+    "X..X",
+    "XX.X",
+    "XX..",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 15,
+   "pob": {
+    "100": 15,
+    "200": 15,
+    "500": 15,
+    "1000": 15,
+    "1500": 15
+   },
+   "idx": 58423,
+   "forma": [
+    "XXX.",
+    "XX..",
+    "..X.",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 61,
+   "pob": {
+    "100": 126,
+    "200": 168,
+    "500": 61,
+    "1000": 61,
+    "1500": 61
+   },
+   "idx": 58501,
+   "forma": [
+    "X.X.",
+    "...X",
+    "..X.",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 145,
+   "periodo": 1,
+   "desplaza": false,
+   "pob_final": 36,
+   "pob": {
+    "100": 52
+   },
+   "idx": 58556,
+   "forma": [
+    "..XX",
+    "XX.X",
+    "..X.",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "crece",
+   "pob_final": 339,
+   "pob": {
+    "100": 147,
+    "200": 110,
+    "500": 262,
+    "1000": 245,
+    "1500": 308
+   },
+   "idx": 58621,
+   "forma": [
+    "X.XX",
+    "XXXX",
+    "..X.",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 153,
+   "periodo": 1,
+   "desplaza": false,
+   "pob_final": 12,
+   "pob": {
+    "100": 32
+   },
+   "idx": 58680,
+   "forma": [
+    "...X",
+    "XX..",
+    "X.X.",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 71,
+   "pob": {
+    "100": 141,
+    "200": 85,
+    "500": 71,
+    "1000": 71,
+    "1500": 71
+   },
+   "idx": 58776,
+   "forma": [
+    "...X",
+    "X..X",
+    "X.X.",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 39,
+   "pob": {
+    "100": 30,
+    "200": 107,
+    "500": 39,
+    "1000": 39,
+    "1500": 39
+   },
+   "idx": 58850,
+   "forma": [
+    ".X..",
+    ".XXX",
+    "X.X.",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 49,
+   "pob": {
+    "100": 66,
+    "200": 95,
+    "500": 49,
+    "1000": 49,
+    "1500": 49
+   },
+   "idx": 58941,
+   "forma": [
+    "X.XX",
+    "XX..",
+    ".XX.",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 123,
+    "200": 117,
+    "500": 167,
+    "1000": 170,
+    "1500": 116
+   },
+   "idx": 59089,
+   "forma": [
+    "X...",
+    "X.XX",
+    ".XX.",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 385,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 48,
+   "pob": {
+    "100": 72,
+    "200": 68
+   },
+   "idx": 59345,
+   "forma": [
+    "X...",
+    "X.XX",
+    "XXX.",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 73,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 59510,
+   "forma": [
+    ".XX.",
+    "XXX.",
+    "...X",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 155,
+   "pob": {
+    "100": 76,
+    "200": 170,
+    "500": 132,
+    "1000": 253,
+    "1500": 155
+   },
+   "idx": 59615,
+   "forma": [
+    "XXXX",
+    "X.XX",
+    "...X",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 115,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 20,
+   "pob": {
+    "100": 38
+   },
+   "idx": 59671,
+   "forma": [
+    "XXX.",
+    "X...",
+    "X..X",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 175,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 103
+   },
+   "idx": 59713,
+   "forma": [
+    "X...",
+    "..X.",
+    "X..X",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 74,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 59785,
+   "forma": [
+    "X..X",
+    "...X",
+    "X..X",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 88,
+   "pob": {
+    "100": 36,
+    "200": 91,
+    "500": 97,
+    "1000": 88,
+    "1500": 88
+   },
+   "idx": 59833,
+   "forma": [
+    "X..X",
+    "XX.X",
+    "X..X",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 202,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 57,
+   "pob": {
+    "100": 189,
+    "200": 53
+   },
+   "idx": 59896,
+   "forma": [
+    "...X",
+    "XXXX",
+    "X..X",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 201,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 18,
+   "pob": {
+    "100": 51,
+    "200": 20
+   },
+   "idx": 59987,
+   "forma": [
+    "XX..",
+    "X.X.",
+    ".X.X",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 36,
+   "pob": {
+    "100": 54,
+    "200": 36,
+    "500": 36,
+    "1000": 36,
+    "1500": 36
+   },
+   "idx": 60062,
+   "forma": [
+    ".XXX",
+    "X..X",
+    ".X.X",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 125,
+    "200": 119,
+    "500": 172,
+    "1000": 160,
+    "1500": 116
+   },
+   "idx": 60164,
+   "forma": [
+    "..X.",
+    "....",
+    "XX.X",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 176,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 38,
+   "pob": {
+    "100": 47
+   },
+   "idx": 60228,
+   "forma": [
+    "..X.",
+    "..X.",
+    "XX.X",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 147,
+   "pob": {
+    "100": 62,
+    "200": 145,
+    "500": 269,
+    "1000": 147,
+    "1500": 147
+   },
+   "idx": 60287,
+   "forma": [
+    "XXXX",
+    "XXX.",
+    "XX.X",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 88,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 60401,
+   "forma": [
+    "X...",
+    "XXXX",
+    "XX.X",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 106,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 21
+   },
+   "idx": 60567,
+   "forma": [
+    "XXX.",
+    "X..X",
+    "..XX",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 176,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 28,
+   "pob": {
+    "100": 57
+   },
+   "idx": 60661,
+   "forma": [
+    "X.X.",
+    "XXXX",
+    "..XX",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 200,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 18,
+   "pob": {
+    "100": 57,
+    "200": 18
+   },
+   "idx": 60721,
+   "forma": [
+    "X...",
+    "XX..",
+    "X.XX",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 105,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 20
+   },
+   "idx": 60788,
+   "forma": [
+    "..X.",
+    "XXX.",
+    "X.XX",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 106,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 21
+   },
+   "idx": 60849,
+   "forma": [
+    "X...",
+    "XX.X",
+    "X.XX",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 219,
+   "periodo": 1,
+   "desplaza": false,
+   "pob_final": 28,
+   "pob": {
+    "100": 31,
+    "200": 32
+   },
+   "idx": 60922,
+   "forma": [
+    ".X.X",
+    "XXXX",
+    "X.XX",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 163,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 16,
+   "pob": {
+    "100": 25
+   },
+   "idx": 61011,
+   "forma": [
+    "XX..",
+    "X.X.",
+    ".XXX",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 39,
+   "pob": {
+    "100": 73,
+    "200": 39,
+    "500": 39,
+    "1000": 39,
+    "1500": 39
+   },
+   "idx": 61113,
+   "forma": [
+    "X..X",
+    "XX.X",
+    ".XXX",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 424,
+   "pob": {
+    "100": 33,
+    "200": 125,
+    "500": 385,
+    "1000": 440,
+    "1500": 419
+   },
+   "idx": 61275,
+   "forma": [
+    "XX.X",
+    "X.X.",
+    "XXXX",
+    ".XXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 168,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 16,
+   "pob": {
+    "100": 36
+   },
+   "idx": 61463,
+   "forma": [
+    "XXX.",
+    "X...",
+    "....",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 104,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 21
+   },
+   "idx": 61555,
+   "forma": [
+    "XX..",
+    "XXX.",
+    "....",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 172,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 111
+   },
+   "idx": 61650,
+   "forma": [
+    ".X..",
+    "X.XX",
+    "....",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 51,
+   "pob": {
+    "100": 101,
+    "200": 66,
+    "500": 51,
+    "1000": 51,
+    "1500": 51
+   },
+   "idx": 61773,
+   "forma": [
+    "X.XX",
+    "..X.",
+    "X...",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 72,
+   "pob": {
+    "100": 152,
+    "200": 136,
+    "500": 153,
+    "1000": 72,
+    "1500": 72
+   },
+   "idx": 61870,
+   "forma": [
+    ".XXX",
+    ".X.X",
+    "X...",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 176,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 131
+   },
+   "idx": 61989,
+   "forma": [
+    "X.X.",
+    ".X..",
+    ".X..",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 74,
+    "200": 147,
+    "500": 184,
+    "1000": 222,
+    "1500": 116
+   },
+   "idx": 62074,
+   "forma": [
+    ".X.X",
+    "XXX.",
+    ".X..",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 195,
+   "pob": {
+    "100": 139,
+    "200": 116,
+    "500": 210,
+    "1000": 293,
+    "1500": 195
+   },
+   "idx": 62141,
+   "forma": [
+    "X.XX",
+    "XX.X",
+    ".X..",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 9,
+   "pob": {
+    "100": 27,
+    "200": 9,
+    "500": 9,
+    "1000": 9,
+    "1500": 9
+   },
+   "idx": 62236,
+   "forma": [
+    "..XX",
+    "X...",
+    "XX..",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 108,
+    "200": 119,
+    "500": 176,
+    "1000": 163,
+    "1500": 116
+   },
+   "idx": 62369,
+   "forma": [
+    "X...",
+    ".X.X",
+    "XX..",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 104,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 21
+   },
+   "idx": 62460,
+   "forma": [
+    "..XX",
+    "XXXX",
+    "XX..",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 205,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 35,
+   "pob": {
+    "100": 98,
+    "200": 47
+   },
+   "idx": 62566,
+   "forma": [
+    ".XX.",
+    ".XX.",
+    "..X.",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 108,
+    "200": 119,
+    "500": 176,
+    "1000": 163,
+    "1500": 116
+   },
+   "idx": 62678,
+   "forma": [
+    ".XX.",
+    "X.XX",
+    "..X.",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 487,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 60,
+   "pob": {
+    "100": 56,
+    "200": 77
+   },
+   "idx": 62758,
+   "forma": [
+    ".XX.",
+    ".X..",
+    "X.X.",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 44,
+   "pob": {
+    "100": 32,
+    "200": 69,
+    "500": 44,
+    "1000": 44,
+    "1500": 44
+   },
+   "idx": 62826,
+   "forma": [
+    ".X.X",
+    ".XX.",
+    "X.X.",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 45,
+   "pob": {
+    "100": 17,
+    "200": 105,
+    "500": 45,
+    "1000": 45,
+    "1500": 45
+   },
+   "idx": 62897,
+   "forma": [
+    "X...",
+    "XX.X",
+    "X.X.",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 58,
+   "pob": {
+    "100": 73,
+    "200": 98,
+    "500": 58,
+    "1000": 58,
+    "1500": 58
+   },
+   "idx": 62967,
+   "forma": [
+    "XXX.",
+    "XXXX",
+    "X.X.",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 112,
+   "periodo": 4,
+   "desplaza": true,
+   "pob_final": 5,
+   "pob": {
+    "100": 17
+   },
+   "idx": 63183,
+   "forma": [
+    "XXXX",
+    "..XX",
+    ".XX.",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 104,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 15,
+   "pob": {
+    "100": 21
+   },
+   "idx": 63365,
+   "forma": [
+    "X.X.",
+    "...X",
+    "XXX.",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 179,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 129
+   },
+   "idx": 63543,
+   "forma": [
+    "XXX.",
+    "XX..",
+    "...X",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 109,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 23,
+   "pob": {
+    "100": 37
+   },
+   "idx": 63653,
+   "forma": [
+    "X.X.",
+    ".X.X",
+    "...X",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 49,
+   "pob": {
+    "100": 92,
+    "200": 49,
+    "500": 49,
+    "1000": 49,
+    "1500": 49
+   },
+   "idx": 63727,
+   "forma": [
+    "XXXX",
+    ".XXX",
+    "...X",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 68,
+   "pob": {
+    "100": 88,
+    "200": 144,
+    "500": 115,
+    "1000": 68,
+    "1500": 68
+   },
+   "idx": 63814,
+   "forma": [
+    ".XX.",
+    "..X.",
+    "X..X",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 291,
+   "pob": {
+    "100": 226,
+    "200": 250,
+    "500": 431,
+    "1000": 356,
+    "1500": 291
+   },
+   "idx": 63905,
+   "forma": [
+    "X...",
+    ".X.X",
+    "X..X",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 11,
+   "pob": {
+    "100": 11,
+    "200": 11,
+    "500": 11,
+    "1000": 11,
+    "1500": 11
+   },
+   "idx": 63991,
+   "forma": [
+    "XXX.",
+    "XXXX",
+    "X..X",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 50,
+   "pob": {
+    "100": 50,
+    "200": 104,
+    "500": 50,
+    "1000": 50,
+    "1500": 50
+   },
+   "idx": 64067,
+   "forma": [
+    "XX..",
+    "..X.",
+    ".X.X",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 19,
+   "pob": {
+    "100": 19,
+    "200": 19,
+    "500": 19,
+    "1000": 19,
+    "1500": 19
+   },
+   "idx": 64140,
+   "forma": [
+    "..XX",
+    "...X",
+    ".X.X",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 116,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 40,
+   "pob": {
+    "100": 28
+   },
+   "idx": 64204,
+   "forma": [
+    "..XX",
+    "..XX",
+    ".X.X",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 123,
+    "200": 117,
+    "500": 167,
+    "1000": 170,
+    "1500": 116
+   },
+   "idx": 64268,
+   "forma": [
+    "..XX",
+    "....",
+    "XX.X",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 18,
+   "pob": {
+    "100": 18,
+    "200": 18,
+    "500": 18,
+    "1000": 18,
+    "1500": 18
+   },
+   "idx": 64378,
+   "forma": [
+    ".X.X",
+    "XXX.",
+    "XX.X",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 16,
+    "200": 104,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 64450,
+   "forma": [
+    ".X..",
+    "..XX",
+    "XX.X",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 389,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 48,
+   "pob": {
+    "100": 58,
+    "200": 83
+   },
+   "idx": 64523,
+   "forma": [
+    "XX.X",
+    "....",
+    "..XX",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 9,
+   "pob": {
+    "100": 27,
+    "200": 9,
+    "500": 9,
+    "1000": 9,
+    "1500": 9
+   },
+   "idx": 64643,
+   "forma": [
+    "XX..",
+    "...X",
+    "..XX",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 116,
+   "pob": {
+    "100": 100,
+    "200": 131,
+    "500": 151,
+    "1000": 182,
+    "1500": 116
+   },
+   "idx": 64730,
+   "forma": [
+    ".X.X",
+    "X.XX",
+    "..XX",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 185,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 55,
+   "pob": {
+    "100": 109
+   },
+   "idx": 64814,
+   "forma": [
+    ".XXX",
+    ".X..",
+    "X.XX",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 28,
+   "pob": {
+    "100": 60,
+    "200": 28,
+    "500": 28,
+    "1000": 28,
+    "1500": 28
+   },
+   "idx": 64922,
+   "forma": [
+    ".X.X",
+    "X..X",
+    "X.XX",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 59,
+   "pob": {
+    "100": 166,
+    "200": 86,
+    "500": 59,
+    "1000": 59,
+    "1500": 59
+   },
+   "idx": 65005,
+   "forma": [
+    "X.XX",
+    ".XXX",
+    "X.XX",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 155,
+   "pob": {
+    "100": 76,
+    "200": 170,
+    "500": 132,
+    "1000": 253,
+    "1500": 155
+   },
+   "idx": 65166,
+   "forma": [
+    ".XXX",
+    "...X",
+    ".XXX",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 29,
+   "pob": {
+    "100": 29,
+    "200": 29,
+    "500": 29,
+    "1000": 29,
+    "1500": 29
+   },
+   "idx": 65311,
+   "forma": [
+    "XXXX",
+    "X...",
+    "XXXX",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "acotada sin cerrar",
+   "pob_final": 12,
+   "pob": {
+    "100": 12,
+    "200": 12,
+    "500": 12,
+    "1000": 12,
+    "1500": 12
+   },
+   "idx": 65429,
+   "forma": [
+    "X.X.",
+    "X..X",
+    "XXXX",
+    "XXXX"
+   ]
+  },
+  {
+   "clase": "cierra",
+   "gen": 110,
+   "periodo": 2,
+   "desplaza": false,
+   "pob_final": 27,
+   "pob": {
+    "100": 47
+   },
+   "idx": 65497,
+   "forma": [
+    "X..X",
+    "X.XX",
+    "XXXX",
+    "XXXX"
+   ]
+  }
+ ],
+ "segundos": 1304,
+ "mayor_crecimiento": {
+  "clase": "crece",
+  "pob_final": 453,
+  "pob": {
+   "100": 70,
+   "200": 126,
+   "500": 228,
+   "1000": 349,
+   "1500": 472
+  },
+  "idx": 31443,
+  "forma": [
+   "XX..",
+   "X.XX",
+   ".X.X",
+   "XXX."
+  ]
+ },
+ "cierre_mas_tardio": {
+  "clase": "cierra",
+  "gen": 680,
+  "periodo": 2,
+  "desplaza": false,
+  "pob_final": 60,
+  "pob": {
+   "100": 48,
+   "200": 93,
+   "500": 82
+  },
+  "idx": 32334,
+  "forma": [
+   ".XXX",
+   "..X.",
+   ".XXX",
+   "XXX."
+  ]
+ }
+}

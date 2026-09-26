@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the note."
+title: "The Life-like rule B37/S2378: an exhaustive census of 4x4 seeds, disk-shaped growth, and two oscillators with machine-checked periods"
+type: software
+authors:
+  - family-names: "Cruz Cabrera"
+    given-names: "Joel"
+    orcid: "https://orcid.org/0009-0005-4048-1237"
+doi: "10.5281/zenodo.22974274"
+date-released: "2026-09-26"
+license: Apache-2.0
+repository-code: "https://github.com/joelcanary/life-like-rule-b37s2378"
+keywords:
+  - cellular automata
+  - Life-like rules
+  - B37/S2378
+  - Game of Life
+  - oscillators
+  - exhaustive census
+  - Lean 4
+  - formal verification
+preferred-citation:
+  type: article
+  title: "The Life-like rule B37/S2378: an exhaustive census of 4x4 seeds, disk-shaped growth, and two oscillators with machine-checked periods"
+  authors:
+    - family-names: "Cruz Cabrera"
+      given-names: "Joel"
+      orcid: "https://orcid.org/0009-0005-4048-1237"
+  doi: "10.5281/zenodo.22974274"
+  year: 2026
+  publisher:
+    name: "Zenodo"

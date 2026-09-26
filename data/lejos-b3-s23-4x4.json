@@ -1,0 +1,117 @@
+{
+ "regla": "B3/S23",
+ "de": "crecimiento-b3-s23-4x4.json",
+ "lejos": 20000,
+ "semillas": [
+  {
+   "clase": "recurre",
+   "gen": 2700,
+   "periodo": 100,
+   "pob_final": 355,
+   "traza": {
+    "0": 9,
+    "2000": 533
+   },
+   "planeadores": 12,
+   "forma": [
+    "X..X",
+    "XX.X",
+    ".X.X",
+    ".XX."
+   ],
+   "idx": 27321
+  },
+  {
+   "clase": "recurre",
+   "gen": 2700,
+   "periodo": 100,
+   "pob_final": 355,
+   "traza": {
+    "0": 9,
+    "2000": 533
+   },
+   "planeadores": 12,
+   "forma": [
+    "XX.X",
+    ".X.X",
+    "..X.",
+    "XXX."
+   ],
+   "idx": 29867
+  },
+  {
+   "clase": "recurre",
+   "gen": 4100,
+   "periodo": 100,
+   "pob_final": 431,
+   "traza": {
+    "0": 10,
+    "2000": 452,
+    "4000": 513
+   },
+   "planeadores": 9,
+   "forma": [
+    "XX..",
+    "X.XX",
+    ".X.X",
+    "XXX."
+   ],
+   "idx": 31443
+  },
+  {
+   "clase": "recurre",
+   "gen": 2700,
+   "periodo": 100,
+   "pob_final": 355,
+   "traza": {
+    "0": 9,
+    "2000": 533
+   },
+   "planeadores": 12,
+   "forma": [
+    "..XX",
+    "XX..",
+    "X.XX",
+    "X..X"
+   ],
+   "idx": 40252
+  },
+  {
+   "clase": "recurre",
+   "gen": 1700,
+   "periodo": 100,
+   "pob_final": 249,
+   "traza": {
+    "0": 11
+   },
+   "planeadores": 0,
+   "forma": [
+    "X.XX",
+    "XXXX",
+    "X.X.",
+    "..XX"
+   ],
+   "idx": 50685
+  },
+  {
+   "clase": "recurre",
+   "gen": 1700,
+   "periodo": 100,
+   "pob_final": 249,
+   "traza": {
+    "0": 11
+   },
+   "planeadores": 0,
+   "forma": [
+    "X.XX",
+    "XXXX",
+    "..X.",
+    ".XXX"
+   ],
+   "idx": 58621
+  }
+ ],
+ "por_clase": {
+  "recurre": 6
+ }
+}

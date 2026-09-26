@@ -1,0 +1,1462 @@
+{
+ "regla": "B3/S23",
+ "fecha": "2026-09-22",
+ "exhaustivo": {
+  "caja": [
+   4,
+   4
+  ],
+  "semillas_totales": 65535,
+  "gens": 100,
+  "extintas": 15492,
+  "sin_cerrar": 9284,
+  "objetos_distintos": 86,
+  "por_clase": {
+   "naturaleza muerta|p1|d0-0|n4": 5542,
+   "naturaleza muerta|p1|d0-0|n5": 1400,
+   "naturaleza muerta|p1|d0-0|n6": 6520,
+   "naturaleza muerta|p1|d0-0|n7": 2320,
+   "naturaleza muerta|p1|d0-0|n8": 3488,
+   "naturaleza muerta|p1|d0-0|n9": 32,
+   "naturaleza muerta|p1|d0-0|n10": 220,
+   "naturaleza muerta|p1|d0-0|n11": 16,
+   "naturaleza muerta|p1|d0-0|n12": 88,
+   "naturaleza muerta|p1|d0-0|n13": 80,
+   "naturaleza muerta|p1|d0-0|n14": 308,
+   "naturaleza muerta|p1|d0-0|n16": 8,
+   "naturaleza muerta|p1|d0-0|n17": 8,
+   "naturaleza muerta|p1|d0-0|n18": 8,
+   "naturaleza muerta|p1|d0-0|n20": 48,
+   "naturaleza muerta|p1|d0-0|n24": 2518,
+   "naturaleza muerta|p1|d0-0|n28": 72,
+   "nave|p4|d1-1|n5": 728,
+   "oscilador|p2|d0-0|n3": 3952,
+   "oscilador|p2|d0-0|n6": 208,
+   "oscilador|p2|d0-0|n7": 16,
+   "oscilador|p2|d0-0|n8": 52,
+   "oscilador|p2|d0-0|n9": 344,
+   "oscilador|p2|d0-0|n10": 32,
+   "oscilador|p2|d0-0|n11": 16,
+   "oscilador|p2|d0-0|n12": 3300,
+   "oscilador|p2|d0-0|n16": 40,
+   "oscilador|p2|d0-0|n17": 8,
+   "oscilador|p2|d0-0|n32": 4,
+   "oscilador|p3|d0-0|n48": 48
+  },
+  "objetos": [
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 4,
+    "forma": [
+     "XX",
+     "XX"
+    ],
+    "semillas": 5158
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 4,
+    "forma": [
+     ".X.",
+     "X.X",
+     ".X."
+    ],
+    "semillas": 384
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 5,
+    "forma": [
+     ".XX",
+     "X.X",
+     ".X."
+    ],
+    "semillas": 1400
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 6,
+    "forma": [
+     ".XX.",
+     "X..X",
+     ".XX."
+    ],
+    "semillas": 6256
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 6,
+    "forma": [
+     ".XX",
+     "X.X",
+     "XX."
+    ],
+    "semillas": 140
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 6,
+    "forma": [
+     "..XX",
+     "X..X",
+     "XX.."
+    ],
+    "semillas": 48
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 6,
+    "forma": [
+     "..X.",
+     ".X.X",
+     "X.X.",
+     ".X.."
+    ],
+    "semillas": 64
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 6,
+    "forma": [
+     "XX",
+     "X.",
+     ".X",
+     "XX"
+    ],
+    "semillas": 12
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 7,
+    "forma": [
+     ".XX.",
+     "X..X",
+     "X.X.",
+     ".X.."
+    ],
+    "semillas": 2188
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 7,
+    "forma": [
+     "..X.",
+     ".X.X",
+     "X.X.",
+     "XX.."
+    ],
+    "semillas": 124
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 7,
+    "forma": [
+     "..XX",
+     "...X",
+     "XXX.",
+     "X..."
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 8,
+    "forma": [
+     ".XX.",
+     "X..X",
+     "X..X",
+     ".XX."
+    ],
+    "semillas": 536
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 8,
+    "forma": [
+     "....XX",
+     "XX..XX",
+     "XX...."
+    ],
+    "semillas": 2144
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 8,
+    "forma": [
+     "..XX",
+     ".X.X",
+     "X.X.",
+     "XX.."
+    ],
+    "semillas": 22
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 8,
+    "forma": [
+     "XX.XX",
+     "XX.XX"
+    ],
+    "semillas": 480
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 8,
+    "forma": [
+     "...X.",
+     "..X.X",
+     ".X.X.",
+     "X.X..",
+     ".X..."
+    ],
+    "semillas": 12
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 8,
+    "forma": [
+     "....XX",
+     "....XX",
+     "......",
+     "......",
+     "XX....",
+     "XX...."
+    ],
+    "semillas": 68
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 8,
+    "forma": [
+     "..X.",
+     ".X.X",
+     "X..X",
+     "X.X.",
+     ".X.."
+    ],
+    "semillas": 32
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 8,
+    "forma": [
+     "XX..XX",
+     "XX..XX"
+    ],
+    "semillas": 130
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 8,
+    "forma": [
+     "XX...",
+     "XX...",
+     ".....",
+     "...XX",
+     "...XX"
+    ],
+    "semillas": 36
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 8,
+    "forma": [
+     "...XX",
+     "...XX",
+     ".....",
+     ".....",
+     "XX...",
+     "XX..."
+    ],
+    "semillas": 16
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 8,
+    "forma": [
+     ".X....",
+     "X.X...",
+     ".X....",
+     "......",
+     "....XX",
+     "....XX"
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 8,
+    "forma": [
+     "..XX",
+     "..XX",
+     "....",
+     "....",
+     "XX..",
+     "XX.."
+    ],
+    "semillas": 4
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 9,
+    "forma": [
+     ".XX..",
+     "X.X..",
+     ".X...",
+     ".....",
+     ".....",
+     "...XX",
+     "...XX"
+    ],
+    "semillas": 24
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 9,
+    "forma": [
+     "......X.",
+     ".XX..X.X",
+     "X.X...X.",
+     ".X......"
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 10,
+    "forma": [
+     "XX...XX.",
+     "XX..X..X",
+     ".....XX."
+    ],
+    "semillas": 48
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 10,
+    "forma": [
+     ".XX..",
+     "X..X.",
+     ".XX..",
+     ".....",
+     ".....",
+     "...XX",
+     "...XX"
+    ],
+    "semillas": 40
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 10,
+    "forma": [
+     ".XX.",
+     ".XX.",
+     "....",
+     "....",
+     ".XX.",
+     "X..X",
+     ".XX."
+    ],
+    "semillas": 24
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 10,
+    "forma": [
+     "....X.",
+     "...X.X",
+     "...XX.",
+     "......",
+     ".X....",
+     "X.X...",
+     ".XX..."
+    ],
+    "semillas": 32
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 10,
+    "forma": [
+     ".X..",
+     "X.X.",
+     "X.X.",
+     ".X..",
+     "....",
+     "....",
+     "..XX",
+     "..XX"
+    ],
+    "semillas": 24
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 10,
+    "forma": [
+     ".XX....",
+     "X..X...",
+     ".XX....",
+     ".....XX",
+     ".....XX"
+    ],
+    "semillas": 32
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 10,
+    "forma": [
+     ".X...X.",
+     "X.X.X.X",
+     "XX...XX"
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 10,
+    "forma": [
+     "XX....XX",
+     "X.X..X.X",
+     ".X....X."
+    ],
+    "semillas": 4
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 10,
+    "forma": [
+     ".....X.",
+     "....X.X",
+     ".....XX",
+     ".......",
+     ".X.....",
+     "X.X....",
+     ".XX...."
+    ],
+    "semillas": 4
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 10,
+    "forma": [
+     ".X......",
+     "X.X.....",
+     ".XX.....",
+     "........",
+     "........",
+     ".....XX.",
+     ".....X.X",
+     "......X."
+    ],
+    "semillas": 4
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 11,
+    "forma": [
+     "......XX",
+     ".XX...XX",
+     "X..X....",
+     ".X.X....",
+     "..X....."
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 11,
+    "forma": [
+     "....XX.",
+     "...X..X",
+     "....X.X",
+     "XX...X.",
+     "XX....."
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 12,
+    "forma": [
+     ".X.",
+     "X.X",
+     "X.X",
+     ".X.",
+     "...",
+     ".X.",
+     "X.X",
+     "X.X",
+     ".X."
+    ],
+    "semillas": 24
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 12,
+    "forma": [
+     ".XX.....",
+     "X..X....",
+     ".XX...X.",
+     ".....X.X",
+     ".....X.X",
+     "......X."
+    ],
+    "semillas": 48
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 12,
+    "forma": [
+     "......XX.",
+     ".....X..X",
+     "......XX.",
+     ".X.......",
+     "X.X......",
+     "X.X......",
+     ".X......."
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 12,
+    "forma": [
+     ".XX.XX.",
+     "X.X.X.X",
+     "XX...XX"
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 13,
+    "forma": [
+     ".XX......",
+     "X..X...X.",
+     "X.X...X.X",
+     ".X....X.X",
+     ".......X."
+    ],
+    "semillas": 72
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 13,
+    "forma": [
+     "...XX.",
+     "...X.X",
+     "....X.",
+     "......",
+     ".XX...",
+     "X..X..",
+     "X..X..",
+     ".XX..."
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 14,
+    "forma": [
+     ".XX.......",
+     "X..X......",
+     ".X.X......",
+     "..X.....X.",
+     ".......X.X",
+     "......X..X",
+     ".......XX."
+    ],
+    "semillas": 240
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 14,
+    "forma": [
+     "....XX.",
+     "...X..X",
+     "....X.X",
+     ".X...X.",
+     "X.X....",
+     "X..X...",
+     ".XX...."
+    ],
+    "semillas": 12
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 14,
+    "forma": [
+     "..X...",
+     ".X.X..",
+     "X..X..",
+     ".XX...",
+     "......",
+     "......",
+     "...XX.",
+     "..X..X",
+     "..X.X.",
+     "...X.."
+    ],
+    "semillas": 56
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 16,
+    "forma": [
+     "....XX.",
+     "...X..X",
+     "...X..X",
+     ".XX.XX.",
+     "X..X...",
+     "X..X...",
+     ".XX...."
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 17,
+    "forma": [
+     ".XX.....",
+     "X..X....",
+     "X.X.....",
+     ".X......",
+     ".....XX.",
+     "....X..X",
+     ".....XX.",
+     "XX......",
+     "XX......"
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 18,
+    "forma": [
+     "......X.",
+     ".....X.X",
+     ".....X.X",
+     "......X.",
+     "........",
+     ".XX.....",
+     "X..X....",
+     ".XX.....",
+     "........",
+     "......X.",
+     ".....X.X",
+     ".....X.X",
+     "......X."
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 20,
+    "forma": [
+     "...XX",
+     "...XX",
+     ".....",
+     ".....",
+     ".X...",
+     "X.X..",
+     "X.X..",
+     ".X...",
+     ".....",
+     ".X...",
+     "X.X..",
+     "X.X..",
+     ".X...",
+     ".....",
+     ".....",
+     "...XX",
+     "...XX"
+    ],
+    "semillas": 32
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 20,
+    "forma": [
+     "....XX...",
+     "....XX...",
+     ".........",
+     ".......XX",
+     "XX.....XX",
+     "X.X......",
+     ".XX......",
+     "...XX....",
+     "...X.X...",
+     "....XX..."
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 20,
+    "forma": [
+     "XX.......",
+     "XX....XX.",
+     "......X.X",
+     ".......X.",
+     "XX.......",
+     "XX.......",
+     "....XX...",
+     "...X..X..",
+     "...X.X...",
+     "....X...."
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 24,
+    "forma": [
+     "......X......",
+     ".....X.X.....",
+     ".....X.X.....",
+     "......X......",
+     ".............",
+     ".XX.......XX.",
+     "X..X.....X..X",
+     ".XX.......XX.",
+     ".............",
+     "......X......",
+     ".....X.X.....",
+     ".....X.X.....",
+     "......X......"
+    ],
+    "semillas": 2360
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 24,
+    "forma": [
+     "....XX....",
+     "...X.X....",
+     "...XX.....",
+     ".XX.......",
+     "X.X.....XX",
+     "XX.....X.X",
+     ".......XX.",
+     ".....XX...",
+     "....X.X...",
+     "....XX...."
+    ],
+    "semillas": 158
+   },
+   {
+    "clase": "naturaleza muerta",
+    "periodo": 1,
+    "dx": 0,
+    "dy": 0,
+    "pob": 28,
+    "forma": [
+     "....XX....",
+     "...X..X...",
+     "...X.X....",
+     ".XX.X...X.",
+     "X..X...X.X",
+     "X.X...X..X",
+     ".X...X.XX.",
+     "....X.X...",
+     "...X..X...",
+     "....XX...."
+    ],
+    "semillas": 72
+   },
+   {
+    "clase": "nave",
+    "periodo": 4,
+    "dx": 1,
+    "dy": 1,
+    "pob": 5,
+    "forma": [
+     ".X.",
+     ".XX",
+     "X.X"
+    ],
+    "semillas": 608
+   },
+   {
+    "clase": "nave",
+    "periodo": 4,
+    "dx": 1,
+    "dy": 1,
+    "pob": 5,
+    "forma": [
+     "..X",
+     "X.X",
+     ".XX"
+    ],
+    "semillas": 120
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 3,
+    "forma": [
+     "X",
+     "X",
+     "X"
+    ],
+    "semillas": 3952
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 6,
+    "forma": [
+     ".X",
+     "XX",
+     "XX",
+     "X."
+    ],
+    "semillas": 100
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 6,
+    "forma": [
+     "..XX",
+     "...X",
+     "X...",
+     "XX.."
+    ],
+    "semillas": 20
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 6,
+    "forma": [
+     ".XX.",
+     "X...",
+     "...X",
+     ".XX."
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 6,
+    "forma": [
+     "....X",
+     "....X",
+     "....X",
+     ".....",
+     "XXX.."
+    ],
+    "semillas": 72
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 6,
+    "forma": [
+     "..X.",
+     "X.X.",
+     ".X.X",
+     ".X.."
+    ],
+    "semillas": 4
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 6,
+    "forma": [
+     "XXX..XXX"
+    ],
+    "semillas": 4
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 7,
+    "forma": [
+     "....X",
+     "....X",
+     "....X",
+     "XX...",
+     "XX..."
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 7,
+    "forma": [
+     "..X",
+     "..X",
+     "..X",
+     "...",
+     "...",
+     "XX.",
+     "XX."
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 8,
+    "forma": [
+     "..XX",
+     "..XX",
+     "XX..",
+     "XX.."
+    ],
+    "semillas": 20
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 8,
+    "forma": [
+     "XXX...XX",
+     ".....X.X",
+     "......X."
+    ],
+    "semillas": 24
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 8,
+    "forma": [
+     "..X",
+     "..X",
+     "..X",
+     "...",
+     ".X.",
+     "X.X",
+     ".XX"
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 9,
+    "forma": [
+     "..XXX",
+     ".....",
+     "X....",
+     "X....",
+     "X....",
+     ".....",
+     "..XXX"
+    ],
+    "semillas": 280
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 9,
+    "forma": [
+     "XXX...XXX",
+     ".........",
+     "....X....",
+     "....X....",
+     "....X...."
+    ],
+    "semillas": 40
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 9,
+    "forma": [
+     "X...",
+     "X...",
+     "X...",
+     "....",
+     "....",
+     ".XX.",
+     "X..X",
+     ".XX."
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 9,
+    "forma": [
+     "...XXX",
+     "......",
+     ".X....",
+     "X.X...",
+     "X.X...",
+     ".X...."
+    ],
+    "semillas": 16
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 10,
+    "forma": [
+     "XXX......",
+     ".........",
+     "......XX.",
+     ".....X..X",
+     ".....X.X.",
+     "......X.."
+    ],
+    "semillas": 24
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 10,
+    "forma": [
+     "XXX.....",
+     ".....XX.",
+     "....X..X",
+     "....X.X.",
+     ".....X.."
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 11,
+    "forma": [
+     "....XXX....",
+     "...........",
+     "...........",
+     "XX.......XX",
+     "XX.......XX"
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 11,
+    "forma": [
+     "...XX",
+     "...XX",
+     ".....",
+     "X....",
+     "X....",
+     "X....",
+     ".....",
+     "...XX",
+     "...XX"
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 12,
+    "forma": [
+     "..XXX..",
+     ".......",
+     "X.....X",
+     "X.....X",
+     "X.....X",
+     ".......",
+     "..XXX.."
+    ],
+    "semillas": 3284
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 12,
+    "forma": [
+     "....X....",
+     "....X....",
+     "....X....",
+     ".........",
+     "XXX...XXX",
+     ".........",
+     "....X....",
+     "....X....",
+     "....X...."
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 12,
+    "forma": [
+     "...X....",
+     "...X....",
+     "...X....",
+     "........",
+     ".....XXX",
+     "........",
+     ".X......",
+     "X.X.....",
+     "X.X.....",
+     ".X......"
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 16,
+    "forma": [
+     "XX.........",
+     "XX....XXX..",
+     "...........",
+     "....X.....X",
+     "....X.....X",
+     "....X.....X",
+     "...........",
+     "......XXX.."
+    ],
+    "semillas": 24
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 16,
+    "forma": [
+     "....XXX..",
+     ".........",
+     "..X.....X",
+     "..X.....X",
+     "..X.....X",
+     ".........",
+     "....XXX..",
+     ".........",
+     ".........",
+     "XX.......",
+     "XX......."
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 16,
+    "forma": [
+     "......XXX..",
+     "...........",
+     "....X.....X",
+     "....X.....X",
+     "....X.....X",
+     "XX.........",
+     "XX....XXX.."
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 17,
+    "forma": [
+     "..XXX......",
+     "...........",
+     "X..........",
+     "X.....XX.XX",
+     "X.....XX.XX",
+     "...........",
+     "..XXX......"
+    ],
+    "semillas": 8
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 2,
+    "dx": 0,
+    "dy": 0,
+    "pob": 32,
+    "forma": [
+     "...........X....",
+     "..........X.X...",
+     "...........XX...",
+     ".....XXX.....XX.",
+     ".............X.X",
+     "...X..........X.",
+     "...X............",
+     "...X............",
+     "............X...",
+     "............X...",
+     ".X..........X...",
+     "X.X.............",
+     ".XX.....XXX.....",
+     "...XX...........",
+     "...X.X..........",
+     "....X..........."
+    ],
+    "semillas": 4
+   },
+   {
+    "clase": "oscilador",
+    "periodo": 3,
+    "dx": 0,
+    "dy": 0,
+    "pob": 48,
+    "forma": [
+     "..XXX...XXX..",
+     ".............",
+     "X....X.X....X",
+     "X....X.X....X",
+     "X....X.X....X",
+     "..XXX...XXX..",
+     ".............",
+     "..XXX...XXX..",
+     "X....X.X....X",
+     "X....X.X....X",
+     "X....X.X....X",
+     ".............",
+     "..XXX...XXX.."
+    ],
+    "semillas": 48
+   }
+  ],
+  "segundos": 917.8,
+  "semillas_evaluadas": 51472,
+  "criterio_semillas": "caja minima exactamente 4x4 (las demas son traslaciones de semillas de cajas menores)",
+  "asentadas": 26696,
+  "objetos_por_fases": 81
+ },
+ "sopas": {
+  "sopas": 40,
+  "lado": 128,
+  "densidad_inicial": 0.3,
+  "gens": 600,
+  "densidad": {
+   "0": 0.3001,
+   "1": 0.3427,
+   "2": 0.2898,
+   "5": 0.2593,
+   "10": 0.218,
+   "20": 0.1719,
+   "50": 0.1238,
+   "100": 0.096,
+   "200": 0.0732,
+   "300": 0.0652,
+   "500": 0.0535,
+   "600": 0.0511
+  },
+  "densidad_final_media": 0.0522
+ }
+}
