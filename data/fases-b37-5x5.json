@@ -1,0 +1,228 @@
+{
+ "regla": "B37/S2378",
+ "caja": [
+  5,
+  5
+ ],
+ "semillas_evaluadas": 29671936,
+ "extintas": 6139972,
+ "sin_cerrar": 11233712,
+ "asentadas": 12298252,
+ "objetos_por_fase_de_parada": 5441,
+ "objetos_fundiendo_fases": 5222,
+ "por_clase": {
+  "naturaleza muerta|p1": 2918,
+  "nave|p4": 10,
+  "oscilador|p2": 2268,
+  "oscilador|p3": 16,
+  "oscilador|p4": 1,
+  "oscilador|p6": 5,
+  "oscilador|p10": 3,
+  "oscilador|p32": 1
+ },
+ "compuestos_por_clase": {
+  "nave|p4": 9,
+  "oscilador|p2": 2260,
+  "oscilador|p3": 15,
+  "oscilador|p6": 4,
+  "oscilador|p10": 1
+ },
+ "osciladores_p3_o_mas_y_naves_simples": [
+  {
+   "clase": "nave",
+   "periodo": 4,
+   "dx": 1,
+   "dy": 1,
+   "semillas": 388176,
+   "fase_minima": [
+    "..X",
+    "X.X",
+    ".XX"
+   ],
+   "poblaciones": [
+    5
+   ],
+   "compuesto": false,
+   "en_4x4": true
+  },
+  {
+   "clase": "oscilador",
+   "periodo": 3,
+   "dx": 0,
+   "dy": 0,
+   "semillas": 42476,
+   "fase_minima": [
+    "....X.....X....",
+    "....X.....X....",
+    "....XX...XX....",
+    "...............",
+    "XXX..XX.XX..XXX",
+    "..X.X.X.X.X.X..",
+    "....XX...XX....",
+    "...............",
+    "....XX...XX....",
+    "..X.X.X.X.X.X..",
+    "XXX..XX.XX..XXX",
+    "...............",
+    "....XX...XX....",
+    "....X.....X....",
+    "....X.....X...."
+   ],
+   "poblaciones": [
+    48,
+    56,
+    72
+   ],
+   "compuesto": false,
+   "en_4x4": true,
+   "regla_min": "B3/S23",
+   "regla_max": "B3578/S023678",
+   "funciona_en_conway": true
+  },
+  {
+   "clase": "oscilador",
+   "periodo": 4,
+   "dx": 0,
+   "dy": 0,
+   "semillas": 24,
+   "fase_minima": [
+    "....X.",
+    "..XX.X",
+    ".X....",
+    "X.X..X",
+    "X..X..",
+    ".XX..."
+   ],
+   "poblaciones": [
+    12,
+    14
+   ],
+   "compuesto": false,
+   "en_4x4": false,
+   "regla_min": "B3/S23",
+   "regla_max": "B3678/S2378",
+   "funciona_en_conway": true
+  },
+  {
+   "clase": "oscilador",
+   "periodo": 6,
+   "dx": 0,
+   "dy": 0,
+   "semillas": 40,
+   "fase_minima": [
+    ".......X.......",
+    ".......X.......",
+    ".......X.......",
+    "....X.....X....",
+    "....X.....X....",
+    "....XX...XX....",
+    "...............",
+    "XXX..XX.XX..XXX",
+    "..X.X.X.X.X.X..",
+    "....XX...XX....",
+    "...............",
+    "....XX...XX....",
+    "..X.X.X.X.X.X..",
+    "XXX..XX.XX..XXX",
+    "...............",
+    "....XX...XX....",
+    "....X.....X....",
+    "....X.....X...."
+   ],
+   "poblaciones": [
+    51,
+    59,
+    75
+   ],
+   "compuesto": false,
+   "en_4x4": false,
+   "regla_min": "B3/S23",
+   "regla_max": "B3578/S023678",
+   "funciona_en_conway": true
+  },
+  {
+   "clase": "oscilador",
+   "periodo": 10,
+   "dx": 0,
+   "dy": 0,
+   "semillas": 2448,
+   "fase_minima": [
+    "......X..",
+    ".X..XX.X.",
+    "X...X...X",
+    ".X..XX.X.",
+    "......X.."
+   ],
+   "poblaciones": [
+    11,
+    13,
+    16,
+    17
+   ],
+   "compuesto": false,
+   "en_4x4": true,
+   "regla_min": "B37/S238",
+   "regla_max": "B378/S2378",
+   "funciona_en_conway": false
+  },
+  {
+   "clase": "oscilador",
+   "periodo": 10,
+   "dx": 0,
+   "dy": 0,
+   "semillas": 8,
+   "fase_minima": [
+    ".......XX",
+    ".......XX",
+    ".........",
+    ".........",
+    "......X..",
+    ".X..XX.X.",
+    "X...X...X",
+    ".X..XX.X.",
+    "......X.."
+   ],
+   "poblaciones": [
+    15,
+    17,
+    20,
+    21
+   ],
+   "compuesto": false,
+   "en_4x4": false,
+   "regla_min": "B37/S238",
+   "regla_max": "B378/S2378",
+   "funciona_en_conway": false
+  },
+  {
+   "clase": "oscilador",
+   "periodo": 32,
+   "dx": 0,
+   "dy": 0,
+   "semillas": 4504,
+   "fase_minima": [
+    ".......X..",
+    "......XXX.",
+    ".X.......X",
+    "X.....XXX.",
+    "....X.....",
+    "....X....."
+   ],
+   "poblaciones": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    17,
+    19,
+    21
+   ],
+   "compuesto": false,
+   "en_4x4": true,
+   "regla_min": "B37/S237",
+   "regla_max": "B378/S2378",
+   "funciona_en_conway": false
+  }
+ ]
+}

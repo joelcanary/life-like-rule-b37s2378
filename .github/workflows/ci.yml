@@ -25,6 +25,10 @@ jobs:
         run: |
           cd paper && python datos_nota.py
           git diff --exit-code -- cifras.tex tabla_censo.tex p10.rle p32.rle
+      - name: The 5x5 object analysis regenerates from the census data
+        run: |
+          cd code && python fases_5x5.py
+          git diff --exit-code -- ../data/fases-b37-5x5.json ../data/fases-b3-s23-5x5.json
 
   latex:
     name: The note compiles

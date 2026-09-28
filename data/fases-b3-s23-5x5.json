@@ -1,0 +1,202 @@
+{
+ "regla": "B3/S23",
+ "caja": [
+  5,
+  5
+ ],
+ "semillas_evaluadas": 29671936,
+ "extintas": 7135655,
+ "sin_cerrar": 7827644,
+ "asentadas": 14708637,
+ "objetos_por_fase_de_parada": 4936,
+ "objetos_fundiendo_fases": 4730,
+ "por_clase": {
+  "naturaleza muerta|p1": 2550,
+  "nave|p4": 6,
+  "oscilador|p2": 2168,
+  "oscilador|p3": 3,
+  "oscilador|p6": 2,
+  "oscilador|p15": 1
+ },
+ "compuestos_por_clase": {
+  "nave|p4": 2,
+  "oscilador|p2": 2163,
+  "oscilador|p3": 2,
+  "oscilador|p6": 1
+ },
+ "osciladores_p3_o_mas_y_naves_simples": [
+  {
+   "clase": "nave",
+   "periodo": 4,
+   "dx": 1,
+   "dy": 1,
+   "semillas": 338288,
+   "fase_minima": [
+    "..X",
+    "X.X",
+    ".XX"
+   ],
+   "poblaciones": [
+    5
+   ],
+   "compuesto": false,
+   "en_4x4": true
+  },
+  {
+   "clase": "nave",
+   "periodo": 4,
+   "dx": 0,
+   "dy": 2,
+   "semillas": 3432,
+   "fase_minima": [
+    "..X.",
+    ".XXX",
+    "XX.X",
+    "XXX.",
+    ".XX."
+   ],
+   "poblaciones": [
+    9,
+    12
+   ],
+   "compuesto": false,
+   "en_4x4": false
+  },
+  {
+   "clase": "nave",
+   "periodo": 4,
+   "dx": 2,
+   "dy": 0,
+   "semillas": 824,
+   "fase_minima": [
+    "...X..",
+    ".X...X",
+    "X.....",
+    "X....X",
+    "XXXXX."
+   ],
+   "poblaciones": [
+    11,
+    15
+   ],
+   "compuesto": false,
+   "en_4x4": false
+  },
+  {
+   "clase": "nave",
+   "periodo": 4,
+   "dx": 2,
+   "dy": 0,
+   "semillas": 784,
+   "fase_minima": [
+    "....XX.",
+    "XXXX.XX",
+    "XXXXXX.",
+    ".XXXX.."
+   ],
+   "poblaciones": [
+    13,
+    18
+   ],
+   "compuesto": false,
+   "en_4x4": false
+  },
+  {
+   "clase": "oscilador",
+   "periodo": 3,
+   "dx": 0,
+   "dy": 0,
+   "semillas": 39290,
+   "fase_minima": [
+    "....X.....X....",
+    "....X.....X....",
+    "....XX...XX....",
+    "...............",
+    "XXX..XX.XX..XXX",
+    "..X.X.X.X.X.X..",
+    "....XX...XX....",
+    "...............",
+    "....XX...XX....",
+    "..X.X.X.X.X.X..",
+    "XXX..XX.XX..XXX",
+    "...............",
+    "....XX...XX....",
+    "....X.....X....",
+    "....X.....X...."
+   ],
+   "poblaciones": [
+    48,
+    56,
+    72
+   ],
+   "compuesto": false,
+   "en_4x4": true,
+   "regla_min": "B3/S23",
+   "regla_max": "B3578/S023678",
+   "funciona_en_conway": true
+  },
+  {
+   "clase": "oscilador",
+   "periodo": 6,
+   "dx": 0,
+   "dy": 0,
+   "semillas": 44,
+   "fase_minima": [
+    ".......X.......",
+    ".......X.......",
+    ".......X.......",
+    "....X.....X....",
+    "....X.....X....",
+    "....XX...XX....",
+    "...............",
+    "XXX..XX.XX..XXX",
+    "..X.X.X.X.X.X..",
+    "....XX...XX....",
+    "...............",
+    "....XX...XX....",
+    "..X.X.X.X.X.X..",
+    "XXX..XX.XX..XXX",
+    "...............",
+    "....XX...XX....",
+    "....X.....X....",
+    "....X.....X...."
+   ],
+   "poblaciones": [
+    51,
+    59,
+    75
+   ],
+   "compuesto": false,
+   "en_4x4": false,
+   "regla_min": "B3/S23",
+   "regla_max": "B3578/S023678",
+   "funciona_en_conway": true
+  },
+  {
+   "clase": "oscilador",
+   "periodo": 15,
+   "dx": 0,
+   "dy": 0,
+   "semillas": 48,
+   "fase_minima": [
+    "....X.X..X.X....",
+    "XX.X..X..X..X.XX",
+    "....X.X..X.X...."
+   ],
+   "poblaciones": [
+    12,
+    16,
+    18,
+    20,
+    22,
+    28,
+    40
+   ],
+   "compuesto": false,
+   "en_4x4": false,
+   "regla_min": "B3/S23",
+   "regla_max": "B3/S023",
+   "funciona_en_conway": true
+  }
+ ]
+}
