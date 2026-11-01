@@ -13,8 +13,8 @@ jobs:
     name: Unit tests and regeneration
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -34,7 +34,7 @@ jobs:
     name: The note compiles
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: xu-cheng/latex-action@v3
         with:
           root_file: nota.tex
@@ -44,7 +44,7 @@ jobs:
     name: Lean proofs and axiom audit
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: leanprover/lean-action@v1
         with:
           lake-package-directory: lean/proofs
