@@ -18,6 +18,9 @@ the LaTeX source, the raw data, the code that produced it, the Lean 4 proofs and
 the animations below. Every number in the note is generated from `data/` by a
 script; none is typed by hand.
 
+The PDF in this repository is version 3 of the note, which adds the still-life theorem below.
+The latest version deposited on Zenodo is version 2, which does not contain it yet.
+
 ## Two oscillators Conway's rule does not have
 
 <table>
