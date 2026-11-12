@@ -60,11 +60,15 @@ class SameStillLifesInSmallBoxes(unittest.TestCase):
         g[:, 2:2 + m, 2:2 + m] = bits.reshape(n, m, m)
         k = sum(np.roll(np.roll(g, a, 1), b, 2) for a, b in ANILLO)
         quietas = {}
-        for nombre in ("B37/S2378", "B3/S23"):
+        familia = ("B3/S23", "B3/S237", "B3/S238", "B3/S2378", "B37/S23", "B37/S237", "B37/S238", "B37/S2378")
+        for nombre in familia + ("B3/S234",):
             nac, sup = V.regla(nombre)
             sig = np.where(g == 1, np.isin(k, list(sup)), np.isin(k, list(nac))).astype(np.uint8)
             quietas[nombre] = (sig == g).all(axis=(1, 2))
-        self.assertTrue((quietas["B37/S2378"] == quietas["B3/S23"]).all())
+        for nombre in familia:            # the eight rules of the note's remark
+            self.assertTrue((quietas[nombre] == quietas["B3/S23"]).all(), nombre)
+        # control: survival on 4 breaks the argument, and the brute force sees it
+        self.assertFalse((quietas["B3/S234"] == quietas["B3/S23"]).all())
         # 83 = OEIS A136278(4), still lifes of Conway's Life in a 4x4 box (the empty one included)
         self.assertEqual(int(quietas["B3/S23"].sum()), 83)
 

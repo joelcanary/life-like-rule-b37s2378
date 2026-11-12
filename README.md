@@ -81,6 +81,10 @@ neighbours would force an edge neighbour to be alive with at least 4, which Conw
 not allow. So every count of Conway still lifes holds for B37/S2378 too, for instance the
 still lifes of an n×n box ([OEIS A136278](https://oeis.org/A136278)).
 
+The same two halves cover eight rules: B3/S23, B3/S237, B3/S238, B3/S2378, B37/S23, B37/S237,
+B37/S238 and B37/S2378 all have the same finite still lifes. For DryLife (B37/S23) only the
+second half is needed and finiteness is not: its still lifes, finite or not, are Conway's.
+
 Checked three ways:
 
 - **Lean 4**, [`lean/StillLifes.lean`](lean/StillLifes.lean): core Lean only, no Mathlib.

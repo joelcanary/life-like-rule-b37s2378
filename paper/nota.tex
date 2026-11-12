@@ -192,10 +192,15 @@ and B37/S2378 does not let it survive. \hfill$\square$
 
 \paragraph{Remarks.} The second half uses only that survival on 4, 5 and 6 is absent, and
 finiteness only to choose $c$. Without finiteness the statement fails: in the full plane
-every cell has 8 live neighbours, which B37/S2378 allows and B3/S23 does not. It follows
-that every enumeration of finite still lifes of Conway's Life holds verbatim for B37/S2378;
-for instance the number of still lifes in an $n\times n$ box is OEIS
-A136278~\cite{a136278} for both rules. In the census of Table~\ref{tab:censo} the two rules
+every cell has 8 live neighbours, which B37/S2378 allows and B3/S23 does not. The two
+halves prove more than the theorem: the eight rules B3/S23, B3/S237, B3/S238, B3/S2378,
+B37/S23, B37/S237, B37/S238 and B37/S2378 have the same finite still lifes. For DryLife,
+B37/S23, only the first half is needed, and it does not use finiteness: the still lifes of
+DryLife, finite or not, are exactly those of Conway's Life. (The Lean proof below covers
+B37/S2378.) It follows
+that every enumeration of finite still lifes of Conway's Life holds verbatim for these
+rules; for instance the number of still lifes in an $n\times n$ box is OEIS
+A136278~\cite{a136278} for all of them. In the census of Table~\ref{tab:censo} the two rules
 reach different still lifes from the same seeds; the theorem says the difference lies in
 which ones the dynamics reaches, not in which ones exist.
 
@@ -289,8 +294,8 @@ is produced by that script; none is typed by hand.
 \section*{Version history}
 
 \textbf{v3} (November 2026). Adds the theorem that finite still lifes of B37/S2378 and
-of B3/S23 coincide, with its proof, the Lean~4 formalisation and the SAT check. Nothing
-else changes.
+of B3/S23 coincide (and the same for six other neighbouring rules, DryLife among them),
+with its proof, the Lean~4 formalisation and the SAT check. Nothing else changes.
 
 \textbf{v2} (26 September 2026). Corrects the number of seeds the census evolves: the
 \evaluadasCasaSemillas{} whose bounding box is exactly $4\times4$, not all
