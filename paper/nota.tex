@@ -19,7 +19,7 @@
 an exhaustive census of $4\times4$ seeds, disk-shaped growth,\\
 and two oscillators with machine-checked periods}
 \author{Joel Cruz Cabrera\thanks{ORCID \href{https://orcid.org/0009-0005-4048-1237}{0009-0005-4048-1237}.}}
-\date{September 2026 (v2)}
+\date{November 2026 (v3)}
 
 \begin{document}
 \maketitle
@@ -41,7 +41,10 @@ unsettled seeds keeps growing (the \crecConwayCrece{} still growing at \lejosCon
 generations all settle by \lejoslejosConway). The periods of both oscillators,
 the minimality of the period~10, and the failure of the period-10 pattern under
 Conway's rule are proved in Lean~4 by kernel computation, with no axioms beyond the
-standard ones.
+standard ones. Finally, we prove that a pattern with finitely many live cells is a still
+life of B37/S2378 if and only if it is a still life of B3/S23; the proof is an argument on a
+$3\times3$ block, checked in Lean~4 and, independently, by a SAT solver with a verified
+proof. The finiteness is needed: the full plane is a still life of B37/S2378 only.
 \end{abstract}
 
 \section{The rule}
@@ -157,6 +160,60 @@ Lean~v4.33.0 and a pinned Mathlib~\cite{mathlib} and accompanies this note. The 
 checked by our simulation, not by Lean, and the minimality of the period~32 is also
 computational (the census finds no earlier repetition).
 
+\subsection{Still lifes are those of Conway's rule}
+
+Survival on 7 and 8 lets crowded regions persist, so one might expect B37/S2378 to have
+still lifes that Conway's rule lacks. It has none with finitely many live cells.
+
+\paragraph{Theorem.} A pattern with finitely many live cells is a still life of B37/S2378
+if and only if it is a still life of B3/S23.
+
+\paragraph{Proof.} Write cells as (row, column) relative to a reference cell, and call a
+live cell \emph{dense} if it has 7 or 8 live neighbours.
+
+\emph{Conway's still lifes are still lifes of B37/S2378.} Live cells survive in both rules
+with 2 or 3 neighbours, so it suffices that no dead cell $d$ of a still life of B3/S23 has
+exactly 7 live neighbours. Suppose it has at least 7, so at most one neighbour $m$ of $d$ is
+dead. An edge neighbour $e$ of $d$ shares with the $3\times3$ block of $d$ four cells other
+than $d$; if $m$ is neither $e$ nor one of those four, then $e$ is alive with at least 4 live
+neighbours, which B3/S23 does not allow. For $e=(0,1)$ and $e=(0,-1)$ this leaves only
+$m=(-1,0)$ or $m=(1,0)$; for $e=(1,0)$ and $e=(-1,0)$, only $m=(0,1)$ or $m=(0,-1)$. Both
+cannot hold.
+
+\emph{Finite still lifes of B37/S2378 are still lifes of B3/S23.} Dead cells already avoid
+3 in B37/S2378, so it suffices that no live cell is dense. Suppose some is, and let $c$ be
+the last dense cell in reading order (row by row, left to right); it exists because there
+are finitely many live cells. Its neighbours $(0,1)$ and $(1,0)$ come after $c$, so neither
+is dense, and at most one neighbour of $c$ is dead. If $(0,1)$ is alive, its neighbours
+$(-1,0)$, $(-1,1)$, $(1,0)$, $(1,1)$ and $c$ include at least 4 live cells. If $(0,1)$ is
+dead, every other neighbour of $c$ is alive; in particular $(1,0)$ is alive, with the live
+neighbours $(0,-1)$, $c$, $(1,-1)$ and $(1,1)$. Either way a live, non-dense cell has 4, 5 or 6 live neighbours,
+and B37/S2378 does not let it survive. \hfill$\square$
+
+\paragraph{Remarks.} The second half uses only that survival on 4, 5 and 6 is absent, and
+finiteness only to choose $c$. Without finiteness the statement fails: in the full plane
+every cell has 8 live neighbours, which B37/S2378 allows and B3/S23 does not. It follows
+that every enumeration of finite still lifes of Conway's Life holds verbatim for B37/S2378;
+for instance the number of still lifes in an $n\times n$ box is OEIS
+A136278~\cite{a136278} for both rules. In the census of Table~\ref{tab:censo} the two rules
+reach different still lifes from the same seeds; the theorem says the difference lies in
+which ones the dynamics reaches, not in which ones exist.
+
+\paragraph{Machine checks.} The theorem is proved in Lean~4~\cite{lean4}
+(\texttt{finite\_stillLife\_iff}), in core Lean without Mathlib, for configurations
+$\mathbb{Z}^2\to\{0,1\}$ with finitely many live cells. A second theorem,
+\texttt{plane\_counterexample}, proves that finiteness cannot be dropped. The two block arguments are checked by
+\texttt{decide} over all $2^9$ values of a $3\times3$ block and use no axioms; the main
+theorem uses \texttt{propext}, \texttt{Classical.choice} and \texttt{Quot.sound}.
+Independently, the existence of a last dense cell was encoded as a propositional formula on
+a $5\times5$ window around it (the rule imposed on every cell whose block fits, the centre
+dense, no later cell dense): CaDiCaL~\cite{cadical} finds it unsatisfiable and
+drat-trim~\cite{drattrim} verifies the proof. The same window without the condition on later
+cells is satisfiable, so the local argument needs the choice of the last dense cell, and
+the control rule B/S3458, whose full $3\times3$ block is a still life with a dense
+centre, is satisfiable with it. A brute-force check also confirms that the $2^{16}$ patterns
+of a $4\times4$ box are still lifes of both rules or of neither.
+
 \subsection{Random soups}
 
 Random soups settle to a density of \sopadensCasa{} under B37/S2378, against
@@ -222,12 +279,18 @@ novelty statement rests on the sources listed above.
 
 The census, soup, growth and front scripts, their JSON outputs, the script that
 generates every number, table and figure in this note from those outputs, the RLE
-files and the Lean development are deposited with this note and kept, with unit tests
+files, the Lean development (the oscillators in \texttt{lean/proofs}, the still-life
+theorem in \texttt{lean/StillLifes.lean}) and the SAT check of the still-life theorem
+(\texttt{code/ventana\_extrema.py}) are deposited with this note and kept, with unit tests
 and continuous integration that rebuilds the Lean proofs and audits their axioms, at
 \url{https://github.com/joelcanary/life-like-rule-b37s2378}. Every number in the text
 is produced by that script; none is typed by hand.
 
 \section*{Version history}
+
+\textbf{v3} (November 2026). Adds the theorem that finite still lifes of B37/S2378 and
+of B3/S23 coincide, with its proof, the Lean~4 formalisation and the SAT check. Nothing
+else changes.
 
 \textbf{v2} (26 September 2026). Corrects the number of seeds the census evolves: the
 \evaluadasCasaSemillas{} whose bounding box is exactly $4\times4$, not all
@@ -266,6 +329,17 @@ in \emph{Automated Deduction -- CADE 28}, LNCS 12699, Springer (2021), 625--635.
 The mathlib Community, \emph{The Lean mathematical library}, in \emph{Proceedings of
 the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs (CPP
 2020)}, ACM (2020), 367--381.
+\bibitem{a136278}
+OEIS Foundation, \emph{The On-Line Encyclopedia of Integer Sequences}, sequence A136278,
+\url{https://oeis.org/A136278} (accessed 12 November 2026).
+\bibitem{cadical}
+A.~Biere, T.~Faller, K.~Fazekas, M.~Fleury, N.~Froleyks and F.~Pollitt, \emph{CaDiCaL~2.0},
+in \emph{Computer Aided Verification -- CAV 2024}, LNCS 14681, Springer (2024), 133--152,
+doi:10.1007/978-3-031-65627-9\_7.
+\bibitem{drattrim}
+N.~Wetzler, M.~J.~H.~Heule and W.~A.~Hunt, \emph{DRAT-trim: Efficient checking and trimming
+using expressive clausal proofs}, in \emph{Theory and Applications of Satisfiability Testing
+-- SAT 2014}, LNCS 8561, Springer (2014), 422--429, doi:10.1007/978-3-319-09284-3\_31.
 \end{thebibliography}
 
 \end{document}

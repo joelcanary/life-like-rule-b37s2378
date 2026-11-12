@@ -151,6 +151,8 @@ class NoteRegenerates(unittest.TestCase):
         will drift the next time the data changes."""
         # a constant declared (and commented) with \newcommand at the top is not typed in the text
         tex = re.sub(r"\\newcommand\{\\\w+\}\{.*\}", "", lee("paper", "nota.tex"))
+        # identifiers in the bibliography are not measurements (doi:10.1007/... contains "100")
+        tex = re.sub(r"doi:[^\s,}]+|\\url\{[^}]*\}", "", tex)
         valores = re.findall(r"\\newcommand\{\\\w+\}\{(.*)\}", lee("paper", "cifras.tex"))
         vistos = 0
         for v in valores:
