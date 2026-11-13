@@ -7,6 +7,10 @@ Life-like rule when every live cell survives and no dead cell is born.
 * `finite_stillLife_iff`: for every configuration with finitely many live cells,
   being a still life of B37/S2378 is equivalent to being a still life of B3/S23.
 * `plane_counterexample`: the hypothesis of finiteness cannot be dropped (the full plane).
+* `rule_finite_stillLife_iff`: the same holds for all eight rules B3[7]/S23[7][8].
+* `rule_stillLife_iff_of_no_dense_survival`: for B3/S23 and DryLife (B37/S23) it holds for
+  every configuration, finite or not.
+* `rule_plane_counterexample`: for the four rules with S8 finiteness is needed.
 
 Proof. If a finite still life of B37/S2378 had a live cell with ≥ 7 live neighbours, take the
 last one `c` in reading order. One of its later neighbours `(0,1)` or `(1,0)` is alive with
@@ -219,9 +223,147 @@ theorem plane_counterexample :
   rw [h8] at this
   exact absurd this (by decide)
 
+/-! ## The eight rules B3[7]/S23[7][8]
+
+`ruleLive s7 s8` survives with 2 or 3 live neighbours, and also with 7 if `s7` and with 8 if
+`s8`; `ruleBorn b7` is born with 3, and also with 7 if `b7`. The eight choices of
+`(b7, s7, s8)` are B3/S23, B3/S237, B3/S238, B3/S2378, B37/S23, B37/S237, B37/S238 and
+B37/S2378. The argument above only uses that no rule of the family survives with 4, 5 or 6
+and that birth needs 3 or 7, so it goes through for all eight:
+
+* `rule_finite_stillLife_iff`: for all eight, finite still lifes are exactly Conway's.
+* `rule_stillLife_iff_of_no_dense_survival`: without survival on 7 or 8 (B3/S23 and DryLife,
+  B37/S23) finiteness is not needed.
+* `rule_plane_counterexample`: with survival on 8 it is needed (the full plane).
+* `ruleLive_conway`, `ruleBorn_conway`, `ruleLive_b37`, `ruleBorn_b37`: the family contains
+  the two rules defined above. -/
+
+def ruleLive (s7 s8 : Bool) (n : Nat) : Bool :=
+  n == 2 || n == 3 || (s7 && n == 7) || (s8 && n == 8)
+def ruleBorn (b7 : Bool) (n : Nat) : Bool := n == 3 || (b7 && n == 7)
+
+theorem ruleLive_conway : ruleLive false false = conwayLive := by
+  funext n; simp [ruleLive, conwayLive]
+theorem ruleBorn_conway : ruleBorn false = conwayBorn := by
+  funext n; simp [ruleBorn, conwayBorn]
+theorem ruleLive_b37 : ruleLive true true = b37Live := by
+  funext n; simp [ruleLive, b37Live]
+theorem ruleBorn_b37 : ruleBorn true = b37Born := by
+  funext n; simp [ruleBorn, b37Born]
+
+theorem ruleLive_mid (s7 s8 : Bool) (n : Nat) (h1 : 4 ≤ n) (h2 : n ≤ 6) :
+    ruleLive s7 s8 n = false := by
+  have : n = 4 ∨ n = 5 ∨ n = 6 := by omega
+  rcases this with rfl | rfl | rfl <;> cases s7 <;> cases s8 <;> decide
+
+theorem conway_live_rule (s7 s8 : Bool) (n : Nat) (h : conwayLive n = true) :
+    ruleLive s7 s8 n = true := by
+  have : n = 2 ∨ n = 3 := by simp [conwayLive] at h; omega
+  rcases this with rfl | rfl <;> cases s7 <;> cases s8 <;> decide
+
+theorem rule_live_conway (s7 s8 : Bool) (n : Nat) (h : ruleLive s7 s8 n = true) (h6 : n ≤ 6) :
+    conwayLive n = true := by
+  have : n = 0 ∨ n = 1 ∨ n = 2 ∨ n = 3 ∨ n = 4 ∨ n = 5 ∨ n = 6 := by omega
+  revert h
+  rcases this with rfl | rfl | rfl | rfl | rfl | rfl | rfl <;> cases s7 <;> cases s8 <;> decide
+
+theorem rule_born_conway (b7 : Bool) (n : Nat) (h : ruleBorn b7 n = false) :
+    conwayBorn n = false := by
+  by_cases hn : n = 3
+  · subst hn; cases b7 <;> exact absurd h (by decide)
+  · simp [conwayBorn, hn]
+
+theorem rule_dense_contra (b7 s7 s8 : Bool) (L : Cell → Bool) (x y : Int)
+    (hSL : StillLife (ruleLive s7 s8) (ruleBorn b7) L) (hc : L (x, y) = true)
+    (h7 : 7 ≤ count L (x, y))
+    (post : ∀ q, lexLt (x, y) q → L q = true → count L q ≤ 6) : False := by
+  rw [count_eq] at h7
+  rcases local_dense _ _ _ _ _ _ _ _ _ hc h7 with ⟨he, h4⟩ | ⟨hs, h4⟩
+  · have h6 := post (x, y + 1) (by unfold lexLt; dsimp only; omega) he
+    have hlo := ge_e L x y
+    have hlive := (hSL (x, y + 1)).1 he
+    rw [ruleLive_mid s7 s8 _ (by omega) h6] at hlive
+    exact Bool.false_ne_true hlive
+  · have h6 := post (x + 1, y) (by unfold lexLt; dsimp only; omega) hs
+    have hlo := ge_s L x y
+    have hlive := (hSL (x + 1, y)).1 hs
+    rw [ruleLive_mid s7 s8 _ (by omega) h6] at hlive
+    exact Bool.false_ne_true hlive
+
+/-- In a FINITE still life of any of the eight rules no live cell has 7 or 8 live neighbours. -/
+theorem rule_no_dense (b7 s7 s8 : Bool) (L : Cell → Bool)
+    (hfin : ∃ cells : List Cell, ∀ p, L p = true → p ∈ cells)
+    (hSL : StillLife (ruleLive s7 s8) (ruleBorn b7) L) : ∀ p, L p = true → count L p ≤ 6 := by
+  intro p hp
+  refine Nat.le_of_not_lt (fun hlt => ?_)
+  obtain ⟨cells, hcells⟩ := hfin
+  let D := cells.filter (fun q => L q && decide (7 ≤ count L q))
+  have hpD : p ∈ D := by
+    simp only [D, List.mem_filter, hcells p hp, hp, Bool.true_and, decide_eq_true_eq, true_and]
+    omega
+  have hD : D ≠ [] := by
+    intro h; rw [h] at hpD; simp at hpD
+  obtain ⟨c, hcD, hmax⟩ := exists_last D hD
+  simp only [D, List.mem_filter, Bool.and_eq_true, decide_eq_true_eq] at hcD
+  obtain ⟨_, hcL, hc7⟩ := hcD
+  have post : ∀ q, lexLt (c.1, c.2) q → L q = true → count L q ≤ 6 := by
+    intro q hq hLq
+    refine Nat.le_of_not_lt (fun h => hmax q ?_ hq)
+    simp only [D, List.mem_filter, hcells q hLq, hLq, Bool.true_and, decide_eq_true_eq, true_and]
+    omega
+  exact rule_dense_contra b7 s7 s8 L c.1 c.2 hSL hcL hc7 post
+
+/-- Every still life of Conway's Life (finite or not) is a still life of all eight rules. -/
+theorem conway_to_rule (b7 s7 s8 : Bool) (L : Cell → Bool)
+    (h : StillLife conwayLive conwayBorn L) : StillLife (ruleLive s7 s8) (ruleBorn b7) L := by
+  intro ⟨x, y⟩
+  refine ⟨fun hL => conway_live_rule s7 s8 _ ((h (x, y)).1 hL), fun hL => ?_⟩
+  have h3 := (h (x, y)).2 hL
+  have h7 := conway_no_dead7 L h x y hL
+  have hne : count L (x, y) ≠ 3 := by simp [conwayBorn] at h3; omega
+  cases b7 <;> simp [ruleBorn] <;> omega
+
+theorem rule_to_conway (b7 s7 s8 : Bool) (L : Cell → Bool)
+    (hfin : ∃ cells : List Cell, ∀ p, L p = true → p ∈ cells)
+    (h : StillLife (ruleLive s7 s8) (ruleBorn b7) L) : StillLife conwayLive conwayBorn L := by
+  intro p
+  exact ⟨fun hL => rule_live_conway s7 s8 _ ((h p).1 hL) (rule_no_dense b7 s7 s8 L hfin h p hL),
+         fun hL => rule_born_conway b7 _ ((h p).2 hL)⟩
+
+/-- **The eight rules.** For configurations with finitely many live cells, each of the eight
+rules B3[7]/S23[7][8] has exactly the still lifes of Conway's Life. -/
+theorem rule_finite_stillLife_iff (b7 s7 s8 : Bool) (L : Cell → Bool)
+    (hfin : ∃ cells : List Cell, ∀ p, L p = true → p ∈ cells) :
+    StillLife (ruleLive s7 s8) (ruleBorn b7) L ↔ StillLife conwayLive conwayBorn L :=
+  ⟨rule_to_conway b7 s7 s8 L hfin, conway_to_rule b7 s7 s8 L⟩
+
+/-- **No survival on 7 or 8.** For B3/S23 and DryLife (B37/S23) the still lifes are Conway's
+for EVERY configuration, finite or not. -/
+theorem rule_stillLife_iff_of_no_dense_survival (b7 : Bool) (L : Cell → Bool) :
+    StillLife (ruleLive false false) (ruleBorn b7) L ↔ StillLife conwayLive conwayBorn L := by
+  refine ⟨fun h p => ⟨fun hL => ?_, fun hL => rule_born_conway b7 _ ((h p).2 hL)⟩,
+          conway_to_rule b7 false false L⟩
+  have := (h p).1 hL
+  rw [ruleLive_conway] at this
+  exact this
+
+/-- **Survival on 8 makes finiteness necessary.** For the four rules with S8 the full plane is a
+still life, and it is not one of Conway's Life. -/
+theorem rule_plane_counterexample (b7 s7 : Bool) :
+    StillLife (ruleLive s7 true) (ruleBorn b7) (fun _ => true) ∧
+      ¬ StillLife conwayLive conwayBorn (fun _ => true) := by
+  have h8 : ∀ p, count (fun _ => true) p = 8 := fun p => by simp [count, nbrs]
+  refine ⟨fun p => ⟨fun _ => ?_, fun h => absurd h (by simp)⟩, plane_counterexample.2⟩
+  rw [h8]; cases s7 <;> decide
+
 end StillLifes
 
 #print axioms StillLifes.finite_stillLife_iff
 #print axioms StillLifes.plane_counterexample
 #print axioms StillLifes.local_dense
 #print axioms StillLifes.local_dead
+#print axioms StillLifes.rule_finite_stillLife_iff
+#print axioms StillLifes.rule_stillLife_iff_of_no_dense_survival
+#print axioms StillLifes.rule_plane_counterexample
+#print axioms StillLifes.ruleLive_b37
+#print axioms StillLifes.ruleBorn_b37

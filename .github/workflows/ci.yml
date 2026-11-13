@@ -65,4 +65,7 @@ jobs:
           grep -q "finite_stillLife_iff' depends on axioms: \[propext, Classical.choice, Quot.sound\]" still.txt
           grep -q "local_dense' does not depend on any axioms" still.txt
           grep -q "local_dead' does not depend on any axioms" still.txt
+          grep -q "rule_finite_stillLife_iff' depends on axioms: \[propext, Classical.choice, Quot.sound\]" still.txt
+          grep -q "rule_stillLife_iff_of_no_dense_survival' depends on axioms: \[propext, Classical.choice, Quot.sound\]" still.txt
+          grep -q "rule_plane_counterexample' depends on axioms: \[propext\]" still.txt
           ! grep -E "sorryAx|ofReduceBool" still.txt

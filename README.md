@@ -95,8 +95,14 @@ Checked three ways:
   `finite_stillLife_iff` is the theorem, `plane_counterexample` shows finiteness is needed,
   and `local_dense` / `local_dead` are the two block arguments, checked by `decide` over all
   2⁹ blocks with no axioms. The main theorem uses `propext`, `Classical.choice` and `Quot.sound`.
+  The eight rules are formalized too, as one family `ruleLive s7 s8` / `ruleBorn b7`:
+  `rule_finite_stillLife_iff` proves the theorem for all eight,
+  `rule_stillLife_iff_of_no_dense_survival` proves the DryLife case for every configuration,
+  finite or not, and `rule_plane_counterexample` shows that the four rules with S8 need
+  finiteness. `ruleLive_b37` and `ruleBorn_b37` check that the family contains B37/S2378 as
+  defined above. Same three standard axioms.
 - **SAT**, [`code/ventana_extrema.py`](code/ventana_extrema.py): a 5×5 window around the last
-  dense cell is unsatisfiable (CaDiCaL, proof verified by drat-trim); the same window without
+  dense cell is unsatisfiable (CaDiCaL, proof checked by drat-trim); the same window without
   "last" is satisfiable, and so is the control rule B/S3458, whose full 3×3 block is a still life.
 - **Brute force**: the 65,536 patterns of a 4×4 box are still lifes of both rules or of
   neither (83 of them are, A136278(4)).

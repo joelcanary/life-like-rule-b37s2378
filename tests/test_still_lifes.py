@@ -82,7 +82,9 @@ class LeanProof(unittest.TestCase):
         sin = re.sub(r"--[^\n]*", " ", sin)
         for prohibido in ("sorry", "native_decide", "admit", "axiom ", "import "):
             self.assertNotIn(prohibido, sin)
-        for t in ("finite_stillLife_iff", "plane_counterexample", "local_dense", "local_dead"):
+        for t in ("finite_stillLife_iff", "plane_counterexample", "local_dense", "local_dead",
+                  "rule_finite_stillLife_iff", "rule_stillLife_iff_of_no_dense_survival",
+                  "rule_plane_counterexample", "ruleLive_b37", "ruleBorn_b37"):
             self.assertIn("theorem " + t, sin)
             self.assertIn("#print axioms StillLifes." + t, sin)
 
