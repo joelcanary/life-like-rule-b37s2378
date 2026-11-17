@@ -70,6 +70,9 @@ The development follows the format of the Lax Lean Archive: [`lean/concepts/`](l
 *states* the four claims (declared there as `axiom`s, which is how the archive records a
 statement) and [`lean/proofs/`](lean/proofs/) *proves* each one as a `theorem`, independently
 of those declarations. The axiom audit confirms that no proof leans on them.
+The archive rebuilt these proofs on its own machines and registered them on 14 November 2026
+as **[`lax-834858`](https://laxarchive.org/lax-834858/)**, permanent and citable; the submitted
+source is [joelcanary/lax-b37-oscillators](https://github.com/joelcanary/lax-b37-oscillators).
 
 ## Its finite still lifes are exactly Conway's
 
