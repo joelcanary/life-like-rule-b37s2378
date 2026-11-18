@@ -92,6 +92,10 @@ The same two halves cover eight rules: B3/S23, B3/S237, B3/S238, B3/S2378, B37/S
 B37/S238 and B37/S2378 all have the same finite still lifes. For DryLife (B37/S23) only the
 second half is needed and finiteness is not: its still lifes, finite or not, are Conway's.
 
+The DryLife half of this is a published comment on [OEIS A019473](https://oeis.org/A019473)
+(the strict still lifes of Conway's Life): the still lifes of DryLife are exactly Conway's, so
+A019473 counts both.
+
 Checked three ways:
 
 - **Lean 4**, [`lean/StillLifes.lean`](lean/StillLifes.lean): core Lean only, no Mathlib.
