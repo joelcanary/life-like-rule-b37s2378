@@ -1,0 +1,101 @@
+[
+  {
+    "id": "c2",
+    "name": "c/2 spaceship of B37/S2378 (46 cells)",
+    "file": "data/spaceships/c2.rle",
+    "period": 2,
+    "displacement": [
+      -1,
+      0
+    ],
+    "speed": "c/2",
+    "cells_per_phase": [
+      46,
+      48
+    ],
+    "box": [
+      19,
+      9
+    ],
+    "width_over_all_phases": 19,
+    "mirror_symmetric": true,
+    "rule_min": "B3/S237",
+    "rule_max": "B378/S23678"
+  },
+  {
+    "id": "c4a",
+    "name": "c/4 spaceship of B37/S2378 (111 cells)",
+    "file": "data/spaceships/c4a.rle",
+    "period": 4,
+    "displacement": [
+      -1,
+      0
+    ],
+    "speed": "c/4",
+    "cells_per_phase": [
+      111,
+      111,
+      95,
+      103
+    ],
+    "box": [
+      15,
+      23
+    ],
+    "width_over_all_phases": 15,
+    "mirror_symmetric": true,
+    "rule_min": "B37/S23",
+    "rule_max": "B378/S2378"
+  },
+  {
+    "id": "c4b",
+    "name": "c/4 spaceship of B37/S2378 (97 cells)",
+    "file": "data/spaceships/c4b.rle",
+    "period": 4,
+    "displacement": [
+      -1,
+      0
+    ],
+    "speed": "c/4",
+    "cells_per_phase": [
+      97,
+      103,
+      102,
+      103
+    ],
+    "box": [
+      15,
+      22
+    ],
+    "width_over_all_phases": 15,
+    "mirror_symmetric": true,
+    "rule_min": "B37/S237",
+    "rule_max": "B378/S2378"
+  },
+  {
+    "id": "c5",
+    "name": "c/5 spaceship of B37/S2378 (177 cells)",
+    "file": "data/spaceships/c5.rle",
+    "period": 5,
+    "displacement": [
+      -1,
+      0
+    ],
+    "speed": "c/5",
+    "cells_per_phase": [
+      177,
+      186,
+      194,
+      184,
+      180
+    ],
+    "box": [
+      15,
+      40
+    ],
+    "width_over_all_phases": 15,
+    "mirror_symmetric": true,
+    "rule_min": "B37/S237",
+    "rule_max": "B378/S2378"
+  }
+]

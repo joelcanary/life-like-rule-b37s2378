@@ -1,0 +1,9 @@
+#N c/5 spaceship of B37/S2378 (177 cells)
+#C Mirror-symmetric, found by a row-by-row search, November 2026.
+x = 15, y = 40, rule = B37/S2378
+4bo5bo$3bobo3bobo$2bob2o3b2obo$3bobo3bobo$6bobo$3b2obobob2o$b2o3bobo3b
+2o$bobob2ob2obobo$4bobobobo$2bobobobobobo$2o2bobobobo2b2o$2o4bobo4b2o$
+bo4bobo4bo$bo4bobo4bo$ob3obobob3obo$2b2obo3bob2o$2b2o7b2o$3bobo3bobo$
+4b3ob3o$$4b2o3b2o$3b3o3b3o$$2bo2bo3bo2bo$3bobo3bobo$$3bo7bo$2b4o3b4o$b
+o3b2ob2o3bo$b2o4bo4b2o$b3obo3bob3o$4bo5bo$4b3ob3o$6bobo$2bob2o3b2obo$b
+o11bo$bo3bo3bo3bo$5bo3bo$2bo2bo3bo2bo$4bo5bo!

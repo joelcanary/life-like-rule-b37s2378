@@ -6,8 +6,8 @@
 [![License: Apache 2.0](https://img.shields.io/badge/code-Apache%202.0-green)](LICENSE)
 [![License: CC BY 4.0](https://img.shields.io/badge/paper-CC%20BY%204.0-lightgrey)](https://creativecommons.org/licenses/by/4.0/)
 
-An exhaustive census of 4×4 seeds, disk-shaped growth, and two oscillators with
-machine-checked periods — for the outer-totalistic rule **B37/S2378**: a dead
+An exhaustive census of 4×4 seeds, disk-shaped growth, two oscillators with
+machine-checked periods and four spaceships — for the outer-totalistic rule **B37/S2378**: a dead
 cell is born with 3 or 7 live neighbours, a live cell survives with 2, 3, 7 or 8.
 It is a close relative of DryLife (B37/S23).
 
@@ -114,6 +114,61 @@ Checked three ways:
 - **Brute force**: the 65,536 patterns of a 4×4 box are still lifes of both rules or of
   neither (83 of them are, A136278(4)).
 
+## Four spaceships
+
+<img src="animations/spaceships.gif" alt="the four spaceships of B37/S2378 moving for 20 generations, cells born each generation in teal" width="571">
+
+Among finite patterns every difference from Conway's rule is in what moves, so we went looking
+for spaceships. A row-by-row search for mirror-symmetric ships, in the style of
+[Eppstein's gfind](https://arxiv.org/abs/cs/0004003), found these four (the search program
+itself is not in this repository):
+
+| RLE | speed | cells | box | works exactly in the rules from … to … |
+|---|---|--:|---|---|
+| [`c2.rle`](data/spaceships/c2.rle) | c/2 | 46 | 19×9 | B3/S237 – B378/S23678 |
+| [`c4a.rle`](data/spaceships/c4a.rle) | c/4 | 111 | 15×23 | B37/S23 – B378/S2378 |
+| [`c4b.rle`](data/spaceships/c4b.rle) | c/4 | 97 | 15×22 | B37/S237 – B378/S2378 |
+| [`c5.rle`](data/spaceships/c5.rle) | c/5 | 177 | 15×40 | B37/S237 – B378/S2378 |
+
+A ship works in a rule R exactly when the first rule ⊆ R ⊆ the second, birth and survival
+separately (B0 left out). So the first c/4 also lives in DryLife (B37/S23), the c/2 needs
+survival on 7 but not birth on 7, and the second c/4 and the c/5 need both. None of the four
+works in Conway's rule.
+
+**What the search rules out.** No mirror-symmetric ship of B37/S2378 moves at c/5 and is at
+most 14 cells wide, and none moves at c/6 and is at most 12 cells wide, whatever its length
+(width across the direction of travel, over all phases). The c/5 ship is 15 wide in every
+phase, so no mirror-symmetric c/5 ship is narrower. This negative result comes from the search
+program and is stated here, not reproduced; it says nothing about asymmetric ships. We know of
+no c/6 ship of this rule.
+
+**Earlier work.** [David Eppstein's database of life-like spaceships](https://www.ics.uci.edu/~eppstein/ca/)
+(`glider.db`, checked on 20 November 2026) lists seven ships that also work in B37/S2378 (the
+glider, a diagonal c/6, two orthogonal c/2 and one each at c/3, 2c/5 and c/4) and none of these
+four. It has orthogonal c/5 ships in many other rules, but none that works in any rule from
+B37/S237 to B378/S2378. We have not checked other catalogues, such as the ConwayLife forums,
+LifeWiki or Catagolue, so we do not call these ships new.
+
+**Checked.** [`code/naves.py`](code/naves.py) runs each ship until its shape comes back,
+measures it in every phase, checks the mirror symmetry, computes the rule range from the
+neighbour counts it actually uses, reruns it at both ends of the range and for 100 periods, and
+writes [`data/spaceships.json`](data/spaceships.json); CI regenerates that file on every push.
+[`tests/test_spaceships.py`](tests/test_spaceships.py) checks that no shorter period exists and
+that each range is tight: dropping one count from the first rule, or adding one outside the
+second, breaks the ship.
+
+```
+#N c/5 spaceship of B37/S2378 (177 cells)
+#C Mirror-symmetric, found by a row-by-row search, November 2026.
+x = 15, y = 40, rule = B37/S2378
+4bo5bo$3bobo3bobo$2bob2o3b2obo$3bobo3bobo$6bobo$3b2obobob2o$b2o3bobo3b
+2o$bobob2ob2obobo$4bobobobo$2bobobobobobo$2o2bobobobo2b2o$2o4bobo4b2o$
+bo4bobo4bo$bo4bobo4bo$ob3obobob3obo$2b2obo3bob2o$2b2o7b2o$3bobo3bobo$
+4b3ob3o$$4b2o3b2o$3b3o3b3o$$2bo2bo3bo2bo$3bobo3bobo$$3bo7bo$2b4o3b4o$b
+o3b2ob2o3bo$b2o4bo4b2o$b3obo3bob3o$4bo5bo$4b3ob3o$6bobo$2bob2o3b2obo$b
+o11bo$bo3bo3bo3bo$5bo3bo$2bo2bo3bo2bo$4bo5bo!
+```
+
 ## Soups settle denser than in Conway's rule
 
 <img src="animations/soups.gif" alt="random soups under B37/S2378 and B3/S23 from the same start" width="620">
@@ -182,16 +237,17 @@ above:
 The period-4 oscillator reached from 24 seeds under B37/S2378 looked new until its rule range
 came out: it works from B3/S23 upwards, and it is Mold, a Conway oscillator that no 5×5 seed
 happens to reach under Conway's rule. So the only objects specific to B37/S2378 are still the
-p10 and the p32, and the glider is still its only spaceship: the three orthogonal spaceships
-that Conway's census finds from the same seeds do not survive birth on 7.
+p10 and the p32, and the glider is still the only spaceship it reaches (the four larger ones
+above come from a search, not from seeds): the three orthogonal spaceships that Conway's census
+finds from the same seeds do not survive birth on 7.
 
 ## Repository layout
 
 | folder | contents |
 |---|---|
 | [`paper/`](paper/) | the note (PDF and LaTeX), the generated table, figures and numeric macros, `datos_nota.py` that generates them, RLE files |
-| [`data/`](data/) | JSON outputs of every computation |
-| [`code/`](code/) | the scripts that produced `data/`, `censo.c` + `agrega_censo.py` (the 5×5 census), `fases_5x5.py` (its objects), `rango.py` (rule ranges), `ventana_extrema.py` (the SAT check of the still-life theorem) and `animaciones.py` (the GIFs above) |
+| [`data/`](data/) | JSON outputs of every computation; the four spaceships as RLE in [`data/spaceships/`](data/spaceships/) |
+| [`code/`](code/) | the scripts that produced `data/`, `censo.c` + `agrega_censo.py` (the 5×5 census), `fases_5x5.py` (its objects), `rango.py` (rule ranges), `ventana_extrema.py` (the SAT check of the still-life theorem), `naves.py` (the spaceships and their GIF) and `animaciones.py` (the other GIFs) |
 | [`lean/`](lean/) | the Lean 4 development: the oscillators (`concepts/` and `proofs/`) and the still-life theorem (`StillLifes.lean`) |
 | [`animations/`](animations/) | the GIFs, regenerated by `code/animaciones.py` |
 | [`tests/`](tests/) | unit tests (Python `unittest`) |
