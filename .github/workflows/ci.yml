@@ -27,8 +27,8 @@ jobs:
           git diff --exit-code -- cifras.tex tabla_censo.tex p10.rle p32.rle
       - name: The spaceships regenerate from their RLE files
         run: |
-          cd code && python naves.py
-          git diff --exit-code -- ../data/spaceships.json
+          cd code && python naves.py && python lean_naves.py
+          git diff --exit-code -- ../data/spaceships.json ../lean/Spaceships.lean
       - name: The 5x5 object analysis regenerates from the census data
         run: |
           cd code && python fases_5x5.py
@@ -73,3 +73,9 @@ jobs:
           grep -q "rule_stillLife_iff_of_no_dense_survival' depends on axioms: \[propext, Classical.choice, Quot.sound\]" still.txt
           grep -q "rule_plane_counterexample' depends on axioms: \[propext\]" still.txt
           ! grep -E "sorryAx|ofReduceBool" still.txt
+      - name: The c/5 spaceship (core Lean, no imports) and its axioms
+        working-directory: lean/proofs
+        run: |
+          lake env lean ../Spaceships.lean | tee ships.txt
+          test "$(grep -c "depends on axioms: \[propext, Classical.choice, Quot.sound\]" ships.txt)" -eq 4
+          ! grep -E "sorryAx|ofReduceBool" ships.txt
