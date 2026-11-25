@@ -146,8 +146,10 @@ no c/6 ship of this rule.
 (`glider.db`, checked on 20 November 2026) lists seven ships that also work in B37/S2378 (the
 glider, a diagonal c/6, two orthogonal c/2 and one each at c/3, 2c/5 and c/4) and none of these
 four. It has orthogonal c/5 ships in many other rules, but none that works in any rule from
-B37/S237 to B378/S2378. We have not checked other catalogues, such as the ConwayLife forums,
-LifeWiki or Catagolue, so we do not call these ships new.
+B37/S237 to B378/S2378. Catagolue (checked on 25 November 2026) has no census of any of those
+four rules, the ones where the c/5 and the second c/4 work; the c/2 and the first c/4 also work in
+other rules, whose censuses we have not searched. We have not checked the ConwayLife forums or
+LifeWiki, so we do not call these ships new.
 
 **Checked.** [`code/naves.py`](code/naves.py) runs each ship until its shape comes back,
 measures it in every phase, checks the mirror symmetry, computes the rule range from the
